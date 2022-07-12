@@ -1,0 +1,20 @@
+setIcon(<rustic:condenser>)
+
+setTitle("Brand new condenser")
+
+setDescription("Like a brewing station, but a condenser. Brews elixirs that are similar to potions, but what's the difference? - oh, there are new ones")
+
+setCompletedIconColor(#bbd4ed)
+setCompletedTitleColor(#bbd4ed)
+setCompletedLineColor(184, 200, 222)
+
+addParent("triumph:AlmostVanilla/3brewing")
+
+setShowToast(true)
+
+setRewardExperience(10)
+
+setPos(-619,120)
+
+criteria = addCriteria("placedBlock", "minecraft:placed_block")
+criteria.setBlock(<rustic:condenser>)

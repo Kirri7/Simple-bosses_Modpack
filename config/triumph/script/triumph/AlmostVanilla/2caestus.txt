@@ -1,0 +1,22 @@
+setIcon(<spartanweaponry:caestus>)
+
+setTitle("Local boxer")
+
+setDescription("Made in ancient Rome")
+
+setCompletedIconColor(#d18334)
+setCompletedTitleColor(#d18334)
+setCompletedLineColor(210, 155, 100)
+
+addParent("triumph:AlmostVanilla/2clubwood")
+
+setShowToast(true)
+
+setRewardExperience(3)
+
+setPos(-681,60)
+
+hideLines()
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<spartanweaponry:caestus>)

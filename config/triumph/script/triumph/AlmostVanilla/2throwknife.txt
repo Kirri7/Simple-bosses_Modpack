@@ -1,0 +1,20 @@
+setIcon(<spartanweaponry:throwing_knife_wood>)
+
+setTitle("Cloudy, possible knife rain")
+
+setDescription("It's party time!")
+
+setCompletedIconColor(#d18334)
+setCompletedTitleColor(#d18334)
+setCompletedLineColor(210, 155, 100)
+
+addParent("triumph:AlmostVanilla/2boomerang")
+
+setShowToast(true)
+
+setRewardExperience(3)
+
+setPos(-555,121)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<spartanweaponry:throwing_knife_wood>)

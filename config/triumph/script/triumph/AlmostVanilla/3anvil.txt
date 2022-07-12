@@ -1,0 +1,22 @@
+setIcon(<minecraft:anvil:1>)
+
+setTitle("Anvil is ready to serve")
+
+setDescription("Now you have new opportunities: repair items using tallow, enchanting anvil, seal crates, use Tomes of Scrapping and a few more...")
+
+setCompletedIconColor(#92989c)
+setCompletedTitleColor(#92989c)
+setCompletedLineColor(184, 200, 222)
+
+addParent("triumph:AlmostVanilla/3silver")
+
+setShowToast(true)
+
+setRewardExperience(12)
+
+setPos(-552,20)
+
+criteria = addCriteria("placedBlock", "minecraft:placed_block")
+criteria.setBlock(<minecraft:anvil>)
+
+addRewardFunction("almostvanilla:anvil")

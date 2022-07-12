@@ -1,0 +1,20 @@
+setIcon(<iceandfire:gorgon_head>)
+
+setTitle("Gorgon hunter")
+
+setDescription("Get nice looking, projective decriasing troll armor")
+
+addParent("triumph:AlmostVanilla/4age")
+
+setShowToast(true)
+
+setRewardExperience(20)
+
+setPos(-978,-57)
+
+hideLines()
+
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<iceandfire:gorgon_head>)
+
+addRewardFunction("almostvanilla:adventures")

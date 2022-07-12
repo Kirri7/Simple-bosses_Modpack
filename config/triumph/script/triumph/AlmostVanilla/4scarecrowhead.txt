@@ -1,0 +1,28 @@
+setIcon(<mod_lavacow:scarecrowhead_plague>)
+
+setTitle("Scarecrow hunter")
+
+setDescription("Get nice looking, projective decriasing troll armor")
+
+addParent("triumph:AlmostVanilla/4age")
+
+setShowToast(true)
+
+setRewardExperience(20)
+
+setPos(-938,-97)
+
+hideLines()
+
+criteria = addCriteria("hasItem1", "minecraft:inventory_changed")
+criteria.addItem(<mod_lavacow:scarecrowhead_common>)
+
+criteria = addCriteria("hasItem2", "minecraft:inventory_changed")
+criteria.addItem(<mod_lavacow:scarecrowhead_straw>)
+
+criteria = addCriteria("hasItem2", "minecraft:inventory_changed")
+criteria.addItem(<mod_lavacow:scarecrowhead_plague>)
+
+setRequirements("any")
+
+addRewardFunction("almostvanilla:adventures")

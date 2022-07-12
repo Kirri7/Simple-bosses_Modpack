@@ -1,0 +1,24 @@
+setIcon(<doggytalents:training_treat>)
+
+setTitle("Back to school")
+
+setDescription("Please your back")
+
+setCompletedIconColor(#d18334)
+setCompletedTitleColor(#d18334)
+setCompletedLineColor(210, 155, 100)
+
+setFrameType("goal")
+
+addParent("triumph:AlmostVanilla/2fire")
+
+setShowToast(true)
+
+setRewardExperience(10)
+
+setPos(-602,2)
+
+hideLines()
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<doggytalents:training_treat>)

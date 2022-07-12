@@ -1,0 +1,99 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  biggerthanwidth = 1920
+  smallerthanheight = 1080
+  renderorder = foreground
+  smallerthanwidth = 1920
+  biggerthanheight = 1080
+}
+
+customization {
+  name = menu
+  action = animatebackground
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = top-left
+  x = 6
+  action = movebutton
+  y = 334
+}
+
+customization {
+  identifier = %id=502382%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  buttonaction = quitgame
+  x = 581
+  width = 52
+  actionid = 2c29ca4c-b92d-42a0-baf3-24c88452b2431626355738270
+  action = addbutton
+  y = 111
+  backgroundhovered = config/fancymenu/buttons/quit2.png
+  label = 
+  backgroundnormal = config/fancymenu/buttons/quit1.png
+  value = 
+  height = 47
+}
+
+customization {
+  identifier = %id=400322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  buttonaction = opencustomgui
+  x = 304
+  width = 57
+  actionid = 86bb5a15-0c24-4f19-902c-3cc9198026741626355738270
+  action = addbutton
+  y = 214
+  backgroundhovered = config/fancymenu/buttons/opt2.png
+  label = 
+  backgroundnormal = config/fancymenu/buttons/opt1.png
+  value = options_menu
+  height = 76
+}
+
+customization {
+  orientation = top-left
+  buttonaction = opencustomgui
+  x = 317
+  width = 96
+  actionid = 52306464-ea53-4adc-a0b4-cd9b9967839c1626355738270
+  action = addbutton
+  y = 97
+  backgroundhovered = config/fancymenu/buttons/play2.png
+  label = 
+  backgroundnormal = config/fancymenu/buttons/play1.png
+  value = play_menu
+  height = 77
+}
+

@@ -1,0 +1,14 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  biggerthanwidth = 1920
+  renderorder = foreground
+  biggerthanheight = 1080
+}
+
+customization {
+  name = menu
+  action = animatebackground
+}
+

@@ -1,0 +1,22 @@
+setIcon(<ebwizardry:magic_wand>)
+
+setTitle("Meet the new wizard!")
+
+setDescription("Don't lose your wand somewhere")
+
+setCompletedIconColor(#9283f2)
+setCompletedTitleColor(#9283f2)
+setCompletedLineColor(162, 150, 242)
+
+addParent("triumph:AlmostVanilla/3magiccrystal")
+
+setShowToast(true)
+
+setRewardExperience(5)
+
+setPos(-552,-47)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<ebwizardry:magic_wand>)
+
+setRewardItem(<ebwizardry:magic_crystal>)

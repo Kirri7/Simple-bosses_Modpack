@@ -1,0 +1,22 @@
+setIcon(<spartanweaponry:mace_wood>)
+
+setTitle("Mace (Windu)")
+
+setDescription("The optimal weapon for modpack")
+
+setCompletedIconColor(#d18334)
+setCompletedTitleColor(#d18334)
+setCompletedLineColor(210, 155, 100)
+
+addParent("triumph:AlmostVanilla/2clubwood")
+
+setShowToast(true)
+
+setRewardExperience(3)
+
+setPos(-681,121)
+
+hideLines()
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<spartanweaponry:mace_wood>)

@@ -1,0 +1,24 @@
+setIcon(<minecraft:fishing_rod>)
+
+setTitle("Go fishing")
+
+setDescription("You can take someone with you")
+
+setCompletedIconColor(#b5ed5a)
+setCompletedTitleColor(#b5ed5a)
+setCompletedLineColor(198, 237, 135)
+
+setFrameType("goal")
+
+addParent("triumph:AlmostVanilla/1travel")
+
+setShowToast(true)
+
+setRewardExperience(8)
+
+setPos(-432,-44)
+
+hideLines()
+
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:fishing_rod>)

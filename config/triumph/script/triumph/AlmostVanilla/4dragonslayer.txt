@@ -1,0 +1,43 @@
+setIcon(<iceandfire:armor_red_helmet>)
+
+setTitle("Dragon slayer")
+
+setDescription("Get nice looking dragon armor")
+
+setFrameType("challenge")
+
+addParent("triumph:AlmostVanilla/4age")
+
+setShowToast(true)
+
+setRewardExperience(100)
+
+setPos(-918,-134)
+
+hideLines()
+
+criteria = addCriteria("crafted1", "triumph:player_crafted_item")
+criteria.setItem(<iceandfire:armor_sapphire_helmet>)
+
+criteria = addCriteria("crafted2", "triumph:player_crafted_item")
+criteria.setItem(<iceandfire:armor_gray_helmet>)
+
+criteria = addCriteria("crafted3", "triumph:player_crafted_item")
+criteria.setItem(<iceandfire:armor_bronze_helmet>)
+
+criteria = addCriteria("crafted4", "triumph:player_crafted_item")
+criteria.setItem(<iceandfire:armor_red_helmet>)
+
+criteria = addCriteria("crafted5", "triumph:player_crafted_item")
+criteria.setItem(<iceandfire:armor_green_helmet>)
+
+criteria = addCriteria("crafted6", "triumph:player_crafted_item")
+criteria.setItem(<iceandfire:armor_white_helmet>)
+
+criteria = addCriteria("crafted7", "triumph:player_crafted_item")
+criteria.setItem(<iceandfire:armor_blue_helmet>)
+
+criteria = addCriteria("crafted8", "triumph:player_crafted_item")
+criteria.setItem(<iceandfire:armor_silver_helmet>)
+
+addRewardFunction("almostvanilla:adventures")

@@ -1,0 +1,24 @@
+[
+ {
+   "helditem": "minecraft:iron_pickaxe",
+   "block": "minecraft:diamond_ore",
+   "message": "Maybe you can try steel?",
+   "result": "deny"
+ },
+ {
+   "helditem": [ "futuremc:netherite_axe", "betternether:cincinnasite_axe", "minecraft:iron_axe", "minecraft:diamond_axe", "minecraft:golden_axe", "iceandfire:silver_axe", "steel_co:steel_axe", "spartanweaponry:throwing_axe_diamond", ],
+   "block": [ "minecraft:log", "biomesoplenty:log_0", "biomesoplenty:log_1", "biomesoplenty:log_2", "biomesoplenty:log_3" ],
+   "result": "allow"
+ },
+ {
+   "block": "minecraft:log",
+   "message": "You need to make a stripped log first (or a better axe)",
+   "result": "deny"
+ },
+ {
+   "block": [ "biomesoplenty:log_0", "biomesoplenty:log_1", "biomesoplenty:log_2", "biomesoplenty:log_3" ],
+   "message": "You need to make a stripped log first (or a better axe)",
+   "result": "deny"
+ }
+
+]

@@ -1,0 +1,25 @@
+setIcon(<armor_souls_reforged:dark_soul, nbt:{"Quark:RuneColor": 1, ench: [{id: 150s}], "Quark:RuneAttached": 1b}>)
+
+setTitle("SpongeBob ChainPants213")
+
+setDescription("Figure out how to make a chain armor213")
+
+setUncompletedIconColor(#cf2e25)
+setCompletedIconColor(#CD5C5C)
+setUncompletedTitleColor(#cf2e25)
+setCompletedTitleColor(#CD5C5C)
+
+setFrameType("challenge")
+
+addParent("triumph:AlmostVanilla/3anvil")
+
+setShowToast(true)
+
+setRewardExperience(10)
+
+setPos(-456,82)
+
+hideLines()
+
+criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
+criteria.setDimensionDestination("the_nether")

@@ -1,0 +1,20 @@
+setIcon(<spartanweaponry:longbow_wood>)
+
+setTitle("Who needs a crossbow anyway?")
+
+setDescription("Make crossbow lovers nervous")
+
+setCompletedIconColor(#d18334)
+setCompletedTitleColor(#d18334)
+setCompletedLineColor(210, 155, 100)
+
+addParent("triumph:AlmostVanilla/2spiders")
+
+setShowToast(true)
+
+setRewardExperience(10)
+
+setPos(-497,-99)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<spartanweaponry:longbow_wood>)

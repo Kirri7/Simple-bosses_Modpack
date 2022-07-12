@@ -1,0 +1,32 @@
+setIcon(<ebwizardry:oak_lectern>)
+
+setTitle("Home library")
+
+setDescription("It is quite convenient and, most importantly, useful")
+
+setCompletedIconColor(#9283f2)
+setCompletedTitleColor(#9283f2)
+setCompletedLineColor(162, 150, 242)
+
+addParent("triumph:AlmostVanilla/3arcanbench")
+
+setShowToast(true)
+
+setRewardExperience(10)
+
+setPos(-552,-88)
+
+criteria = addCriteria("placedBlock", "minecraft:placed_block")
+criteria.setBlock(<ebwizardry:oak_lectern>)
+
+criteria = addCriteria("placedBlock", "minecraft:placed_block")
+criteria.setBlock(<ebwizardry:oak_bookshelf>)
+
+setRewardItem(<ebwizardry:large_mana_flask>)
+setRewardItem(<ebwizardry:medium_mana_flask>)
+setRewardItem(<ebwizardry:blank_scroll>)
+setRewardItem(<ebwizardry:blank_scroll>)
+setRewardItem(<ebwizardry:blank_scroll>)
+setRewardItem(<ebwizardry:blank_scroll>)
+setRewardItem(<ebwizardry:blank_scroll>)
+setRewardItem(<ebwizardry:blank_scroll>)

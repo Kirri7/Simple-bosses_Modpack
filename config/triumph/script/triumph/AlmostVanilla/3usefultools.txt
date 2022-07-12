@@ -1,0 +1,20 @@
+setIcon(<usefultoolsmod:planter_tool>)
+
+setTitle("Useful tools")
+
+setDescription("Hope this will make the farmer's work easier")
+
+setCompletedIconColor(#bbd4ed)
+setCompletedTitleColor(#bbd4ed)
+setCompletedLineColor(184, 200, 222)
+
+addParent("triumph:AlmostVanilla/3chainmail")
+
+setShowToast(true)
+
+setRewardExperience(5)
+
+setPos(-686,53)
+
+criteria = addCriteria("silver", "minecraft:inventory_changed")
+criteria.addItem(<usefultoolsmod:planter_tool>)

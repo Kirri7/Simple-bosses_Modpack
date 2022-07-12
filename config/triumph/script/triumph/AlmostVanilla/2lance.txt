@@ -1,0 +1,20 @@
+setIcon(<spartanweaponry:lance_wood>)
+
+setTitle("Lance")
+
+setDescription("It's time for a jousting tournament")
+
+setCompletedIconColor(#d18334)
+setCompletedTitleColor(#d18334)
+setCompletedLineColor(210, 155, 100)
+
+addParent("triumph:AlmostVanilla/2glaive")
+
+setShowToast(true)
+
+setRewardExperience(3)
+
+setPos(-497,91)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<spartanweaponry:lance_wood>)

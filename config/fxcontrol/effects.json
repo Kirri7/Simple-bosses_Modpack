@@ -1,0 +1,61 @@
+[
+  {
+    "timeout": 2400,
+   	"random": 0.5,
+    "helditem": {
+        "item": "xpbook:xp_tome",
+        "nbt": [
+            {
+                "tag": "xp",
+                "value": "0"
+            }
+        ]
+     },   	
+   	"damage": "magic=8.0",
+   	"message": "ay, the magic is painful"
+  },
+  {
+    "timeout": 100,
+    "amulet": "pogosticks:pogo_stick",
+   	"message": "It would be better to carry the pogostick in hand",
+   	"potion": [ "netherex:frozen,100,4", "minecraft:slowness,100,4" ]
+  },
+  {
+    "timeout": 100,
+    "ring": "pogosticks:pogo_stick",
+   	"message": "It would be better to carry the pogostick in hand",
+   	"potion": [ "netherex:frozen,100,4", "minecraft:slowness,100,4" ]
+  },
+  {
+    "timeout": 100,
+    "belt": "pogosticks:pogo_stick",
+   	"message": "It would be better to carry the pogostick in hand",
+   	"potion": [ "netherex:frozen,100,4", "minecraft:slowness,100,4" ]
+  },
+  {
+    "timeout": 100,
+    "trinket": "pogosticks:pogo_stick",
+   	"message": "It would be better to carry the pogostick in hand",
+   	"potion": [ "netherex:frozen,100,4", "minecraft:slowness,100,4" ]
+  },
+  {
+    "timeout": 100,
+    "charm": "pogosticks:pogo_stick",
+   	"message": "It would be better to carry the pogostick in hand",
+   	"potion": [ "netherex:frozen,100,4", "minecraft:slowness,100,4" ]
+  },
+  {
+    "timeout": 100,
+    "body": "pogosticks:pogo_stick",
+   	"message": "It would be better to carry the pogostick in hand",
+   	"potion": [ "netherex:frozen,100,4", "minecraft:slowness,100,4" ]
+  },
+  {
+    "timeout": 100,
+    "head": "pogosticks:pogo_stick",
+   	"message": "It would be better to carry the pogostick in hand",
+   	"potion": [ "netherex:frozen,100,4", "minecraft:slowness,100,4" ]
+  }  
+
+
+]

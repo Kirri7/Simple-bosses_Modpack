@@ -1,0 +1,20 @@
+setIcon(<primitivemobs:camouflage_helmet>)
+
+setTitle("Salamander hunter")
+
+setDescription("Get nice looking, projective decriasing troll armor")
+
+addParent("triumph:AlmostVanilla/4age")
+
+setShowToast(true)
+
+setRewardExperience(20)
+
+setPos(-818,-57)
+
+hideLines()
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<primitivemobs:camouflage_helmet>)
+
+addRewardFunction("almostvanilla:adventures")

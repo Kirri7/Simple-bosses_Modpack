@@ -1,0 +1,25 @@
+setIcon(<minecraft:iron_ingot>)
+
+setTitle("I'm so glad to see you!")
+
+setDescription("Finally give five to the iron (right click on the iron ore)")
+
+setCompletedIconColor(#bbd4ed)
+setCompletedTitleColor(#bbd4ed)
+setCompletedLineColor(184, 200, 222)
+
+addParent("triumph:AlmostVanilla/3age")
+
+setShowToast(true)
+
+setRewardExperience(5)
+
+setPos(-820,20)
+
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock(<minecraft:iron_ore>)
+
+criteria = addCriteria("hasIron", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:iron_ingot>)
+
+setRequirements("any")

@@ -1,0 +1,20 @@
+setIcon(<uncraftingtable:uncrafting_table>)
+
+setTitle("Uncrafting table")
+
+setDescription("Craft uncrafting table or uncraft it...")
+
+setCompletedIconColor(#b5ed5a)
+setCompletedTitleColor(#b5ed5a)
+setCompletedLineColor(198, 237, 135)
+
+addParent("triumph:AlmostVanilla/1craftingtable")
+
+setShowToast(true)
+
+setRewardExperience(4)
+
+setPos(-371,-44)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<uncraftingtable:uncrafting_table>)

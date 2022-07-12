@@ -1,0 +1,23 @@
+setIcon(<minecraft:bookshelf>)
+
+setTitle("Good preparation")
+
+setDescription("Prepaire bookshelfs for an enchanting table")
+
+setCompletedIconColor(#bbd4ed)
+setCompletedTitleColor(#bbd4ed)
+setCompletedLineColor(184, 200, 222)
+
+setFrameType("goal")
+
+addParent("triumph:AlmostVanilla/3enchtable")
+
+setShowToast(true)
+
+setRewardExperience(24)
+
+setPos(-485,53)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<minecraft:bookshelf>)
+criteria.setCount(12)

@@ -1,0 +1,22 @@
+setIcon(<charm:gold_lantern>)
+
+setTitle("Golden life")
+
+setDescription("Invest in gold lanterns")
+
+setCompletedIconColor(#bbd4ed)
+setCompletedTitleColor(#bbd4ed)
+setCompletedLineColor(184, 200, 222)
+
+setFrameType("challenge")
+
+addParent("triumph:AlmostVanilla/3ward")
+
+setShowToast(true)
+
+setRewardExperience(8)
+
+setPos(-686,87)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<charm:gold_lantern>)

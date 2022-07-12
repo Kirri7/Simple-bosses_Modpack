@@ -1,0 +1,20 @@
+setIcon(<futuremc:blast_furnace>)
+
+setTitle("Blast furnace")
+
+setDescription("Mmm yummy lava")
+
+setCompletedIconColor(#bbd4ed)
+setCompletedTitleColor(#bbd4ed)
+setCompletedLineColor(184, 200, 222)
+
+addParent("triumph:AlmostVanilla/3iron")
+
+setShowToast(true)
+
+setRewardExperience(5)
+
+setPos(-753,20)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<futuremc:blast_furnace>)

@@ -1,0 +1,15 @@
+{
+	"biomesoplenty:highland":
+	{
+		"minecraft:speed": 0
+	},
+	"biomesoplenty:lavender_fields":
+	{
+		"minecraft:regeneration": 1,
+		"minecraft:resistance": 2
+	},	
+	"minecraft:plains":
+	{
+		"minecraft:speed": 0
+	}
+}

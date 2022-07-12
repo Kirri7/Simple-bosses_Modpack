@@ -1,0 +1,20 @@
+setIcon(<cqrepoured:helmet_turtle>)
+
+setTitle("Turtle hunter")
+
+setDescription("Get nice looking, projective decriasing troll armor")
+
+addParent("triumph:AlmostVanilla/4age")
+
+setShowToast(true)
+
+setRewardExperience(20)
+
+setPos(-858,-57)
+
+hideLines()
+
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<cqrepoured:helmet_turtle>)
+
+addRewardFunction("almostvanilla:adventures")

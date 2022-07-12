@@ -1,0 +1,30 @@
+setIcon(<minecraft:diamond_sword, nbt:{"Quark:RuneColor": 11, ench: [{id: 150s}], "Quark:RuneAttached": 1b}>)
+
+setTitle("When the Doom music kicks in")
+
+setDescription("Wear netherite set with Hell Infusion and Magma Walker")
+
+addParent("triumph:AlmostVanilla/9SecretAdvancements")
+
+setShowToast(true)
+
+setRewardExperience(10)
+
+setPos(-24,24)
+
+hideLines()
+
+criteria = addCriteria("enchanted1", "minecraft:enchanted_item")
+criteria.setItem(<minecraft:diamond_sword>)
+
+criteria = addCriteria("enchanted2", "minecraft:enchanted_item")
+criteria.addItem(<minecraft:diamond_helmet>)
+
+criteria = addCriteria("enchanted3", "minecraft:enchanted_item")
+criteria.addItem(<minecraft:diamond_chestplate>)
+
+criteria = addCriteria("enchanted4", "minecraft:enchanted_item")
+criteria.addItem(<minecraft:diamond_leggings>)
+
+criteria = addCriteria("enchanted5", "minecraft:enchanted_item")
+criteria.addItem(<minecraft:diamond_boots>)

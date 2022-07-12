@@ -1,0 +1,24 @@
+setIcon(<minecraft:tnt>)
+
+setTitle("This is where the fun begins")
+
+setDescription("Collect a bunch of TNT and \"Flint and Steel\" (Throwing metod: Have some TNT in your main hand,  Flint and Steel in your off-hand and right-click)")
+
+setCompletedIconColor(#bbd4ed)
+setCompletedTitleColor(#bbd4ed)
+setCompletedLineColor(184, 200, 222)
+
+addParent("triumph:AlmostVanilla/3creepers")
+
+setShowToast(true)
+
+setRewardExperience(5)
+
+setPos(-753,87)
+
+criteria = addCriteria("hasFlint", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:flint_and_steel>)
+
+criteria = addCriteria("hasTnt", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:tnt>)
+criteria.setCount(3)

@@ -1,0 +1,25 @@
+setIcon(<iceandfire:mountain_troll_leather_helmet>)
+
+setTitle("Troll hunter")
+
+setDescription("Get nice looking, projective decriasing troll armor")
+
+addParent("triumph:AlmostVanilla/4age")
+
+setShowToast(true)
+
+setRewardExperience(20)
+
+setPos(-818,-97)
+
+hideLines()
+
+criteria = addCriteria("crafted1", "triumph:player_crafted_item")
+criteria.setItem(<iceandfire:mountain_troll_leather_helmet>)
+
+criteria = addCriteria("crafted2", "triumph:player_crafted_item")
+criteria.setItem(<iceandfire:frost_troll_leather_helmet>)
+
+setRequirements("any")
+
+addRewardFunction("almostvanilla:adventures")
