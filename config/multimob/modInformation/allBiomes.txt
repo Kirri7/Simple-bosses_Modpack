@@ -146,8 +146,4 @@ pvj:baobab_fields
 creepingnether:creeping_nether
 creepingnether:purified_nether
 iceandfire:glacier
-netherex:ruthless_sands
-netherex:fungi_forest
-netherex:torrid_wasteland
-netherex:arctic_abyss
 armor_souls_reforged:death_valley
