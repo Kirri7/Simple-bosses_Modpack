@@ -1,0 +1,20 @@
+setIcon(<quark:chain>)
+
+setTitle("Don't get lost anymore")
+
+setDescription("And don't forget to fasten the minecarts (or boats) with a chain")
+
+setCompletedIconColor(#bbd4ed)
+setCompletedTitleColor(#bbd4ed)
+setCompletedLineColor(184, 200, 222)
+
+addParent("triumph:AlmostVanilla/3goldrail")
+
+setShowToast(true)
+
+setRewardExperience(5)
+
+setPos(-652,-14)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<quark:chain>)

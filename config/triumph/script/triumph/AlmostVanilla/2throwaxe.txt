@@ -1,0 +1,20 @@
+setIcon(<spartanweaponry:throwing_axe_wood>)
+
+setTitle("Viking")
+
+setDescription("Use throwing axe for flexible solutions")
+
+setCompletedIconColor(#d18334)
+setCompletedTitleColor(#d18334)
+setCompletedLineColor(210, 155, 100)
+
+addParent("triumph:AlmostVanilla/2throwknife")
+
+setShowToast(true)
+
+setRewardExperience(3)
+
+setPos(-497,121)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<spartanweaponry:throwing_axe_wood>)

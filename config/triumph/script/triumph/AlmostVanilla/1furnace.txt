@@ -1,0 +1,23 @@
+setIcon(<minecraft:furnace>)
+
+setTitle("Keep me warm all winter")
+
+setDescription("Provide yourself with a furnace")
+
+setCompletedIconColor(#b5ed5a)
+setCompletedTitleColor(#b5ed5a)
+setCompletedLineColor(198, 237, 135)
+
+addParent("triumph:AlmostVanilla/1craftingtable")
+
+setShowToast(true)
+
+setRewardExperience(4)
+
+setPos(-275,17)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<minecraft:furnace>)
+
+/gamestage add player "reinforcedStone_1"
+/say test

@@ -1,0 +1,23 @@
+setIcon(<harvestcraft:watertrap>)
+
+setTitle("It's a trap!")
+
+setDescription("Set up ground and water traps")
+
+setCompletedIconColor(#d18334)
+setCompletedTitleColor(#d18334)
+setCompletedLineColor(210, 155, 100)
+
+addParent("triumph:AlmostVanilla/2fire")
+
+setShowToast(true)
+
+setRewardExperience(8)
+
+setPos(-497,-21)
+
+criteria = addCriteria("clickedBlock1", "triumph:right_click_block")
+criteria.setBlock(<harvestcraft:groundtrap>)
+
+criteria = addCriteria("clickedBlock2", "triumph:right_click_block")
+criteria.setBlock(<harvestcraft:watertrap>)

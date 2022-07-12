@@ -1,0 +1,20 @@
+setIcon(<spartanweaponry:greatsword_wood>)
+
+setTitle("Nice sword, I have bigger one")
+
+setDescription("Greatsword for a really BIG problems")
+
+setCompletedIconColor(#d18334)
+setCompletedTitleColor(#d18334)
+setCompletedLineColor(210, 155, 100)
+
+addParent("triumph:AlmostVanilla/2longsword")
+
+setShowToast(true)
+
+setRewardExperience(5)
+
+setPos(-436,60)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<spartanweaponry:greatsword_wood>)

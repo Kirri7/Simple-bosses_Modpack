@@ -1,0 +1,22 @@
+setIcon(<ebwizardry:arcane_workbench>)
+
+setTitle("Arcane workbench")
+
+setDescription("An arcane workbench is as important to a wizard as an enchanting table is to a enchanter")
+
+setCompletedIconColor(#9283f2)
+setCompletedTitleColor(#9283f2)
+setCompletedLineColor(162, 150, 242)
+
+addParent("triumph:AlmostVanilla/3magiccrystal")
+
+setShowToast(true)
+
+setRewardExperience(5)
+
+setPos(-485,-88)
+
+criteria = addCriteria("placedBlock", "minecraft:placed_block")
+criteria.setBlock(<ebwizardry:arcane_workbench>)
+
+setRewardItem(<ebwizardry:magic_crystal>)

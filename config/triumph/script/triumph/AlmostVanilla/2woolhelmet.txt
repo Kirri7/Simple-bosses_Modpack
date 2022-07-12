@@ -1,0 +1,22 @@
+setIcon(<toughasnails:wool_helmet>)
+
+setTitle("It's cozy in here")
+
+setDescription("It's like being hugged by Bigfoot")
+
+setCompletedIconColor(#d18334)
+setCompletedTitleColor(#d18334)
+setCompletedLineColor(210, 155, 100)
+
+addParent("triumph:AlmostVanilla/2leggings")
+
+setShowToast(true)
+
+setRewardExperience(5)
+
+setPos(-666,-82)
+
+hideLines()
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<toughasnails:wool_helmet>)

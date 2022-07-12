@@ -1,0 +1,24 @@
+setIcon(<minecraft:golden_pickaxe, nbt:{ench:[{id:32s}]}>)
+
+setTitle("Faster than sound")
+
+setDescription("Enchent golden pickaxe with efficienty")
+
+setCompletedIconColor(#ffe16b)
+setCompletedTitleColor(#ffe16b)
+setCompletedLineColor(184, 200, 222)
+
+setFrameType("challenge")
+
+addParent("triumph:AlmostVanilla/3enchtable")
+
+setShowToast(true)
+
+setRewardExperience(10)
+
+setPos(-619,87)
+
+hideLines()
+
+criteria = addCriteria("hasGoldPick", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:golden_pickaxe, nbt:{ench:[{id:32s}]}>)

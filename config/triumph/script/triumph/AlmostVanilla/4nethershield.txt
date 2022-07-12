@@ -1,0 +1,20 @@
+setIcon(<eerieentities:nether_shield>)
+
+setTitle("Nether traveler")
+
+setDescription("")
+
+addParent("triumph:AlmostVanilla/4age")
+
+setShowToast(true)
+
+setRewardExperience(20)
+
+setPos(-778,-57)
+
+hideLines()
+
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<eerieentities:nether_shield>)
+
+addRewardFunction("almostvanilla:adventures")

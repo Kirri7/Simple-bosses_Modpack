@@ -1,0 +1,22 @@
+setIcon(<minecraft:crafting_table>)
+
+setTitle("In any confusing situation")
+
+setDescription("Craft a workbench, however, as always...")
+
+setUncompletedIconColor(#A0522D)
+setUncompletedTitleColor(#CD853F)
+setCompletedIconColor(#b5ed5a)
+setCompletedTitleColor(#b5ed5a)
+setCompletedLineColor(198, 237, 135)
+
+addParent("triumph:AlmostVanilla/1travel")
+
+setShowToast(true)
+
+setRewardExperience(4)
+
+setPos(-371,17)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<minecraft:crafting_table>)

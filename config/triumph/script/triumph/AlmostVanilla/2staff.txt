@@ -1,0 +1,20 @@
+setIcon(<spartanweaponry:staff>)
+
+setTitle("Quarterstaff")
+
+setDescription("Looks like a long stick")
+
+setCompletedIconColor(#d18334)
+setCompletedTitleColor(#d18334)
+setCompletedLineColor(210, 155, 100)
+
+addParent("triumph:AlmostVanilla/2clubwood")
+
+setShowToast(true)
+
+setRewardExperience(3)
+
+setPos(-616,91)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<spartanweaponry:staff>)

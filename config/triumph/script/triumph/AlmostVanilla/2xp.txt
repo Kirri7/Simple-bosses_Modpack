@@ -1,0 +1,24 @@
+setIcon(<xpbook:xp_book>)
+
+setTitle("The Book of Experience")
+
+setDescription("(And no, this is not a paper version of wikipedia)")
+
+setCompletedIconColor(#d18334)
+setCompletedTitleColor(#d18334)
+setCompletedLineColor(210, 155, 100)
+
+setFrameType("goal")
+
+addParent("triumph:AlmostVanilla/2backpack")
+
+setShowToast(true)
+
+setRewardExperience(12)
+
+setPos(-414,91)
+
+hideLines()
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<xpbook:xp_tome>)

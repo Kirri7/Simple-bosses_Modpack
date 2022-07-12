@@ -1,0 +1,30 @@
+setIcon(<naar:birch_leggings>)
+
+setTitle("What a new style!")
+
+setDescription("My mom sewed me wooden leggings")
+
+setCompletedIconColor(#d18334)
+setCompletedTitleColor(#d18334)
+setCompletedLineColor(210, 155, 100)
+
+addParent("triumph:AlmostVanilla/2age")
+
+setShowToast(true)
+
+setRewardExperience(6)
+
+setPos(-649,-30)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<naar:darkoak_leggings>)
+OR
+criteria.setItem(<naar:acacia_leggings>)
+OR
+criteria.setItem(<naar:jungle_leggings>)
+OR
+criteria.setItem(<naar:birch_leggings>)
+OR
+criteria.setItem(<naar:spruce_leggings>)
+OR
+criteria.setItem(<naar:oak_leggings>)

@@ -1,0 +1,22 @@
+setIcon(<ebwizardry:wizard_hat>)
+
+setTitle("Magic protection is important")
+
+setDescription("I think this suit isn't my size")
+
+setCompletedIconColor(#9283f2)
+setCompletedTitleColor(#9283f2)
+setCompletedLineColor(162, 150, 242)
+
+addParent("triumph:AlmostVanilla/3magiccrystal")
+
+setShowToast(true)
+
+setRewardExperience(5)
+
+setPos(-427,-47)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<ebwizardry:wizard_hat>)
+
+setRewardItem(<ebwizardry:magic_crystal>)

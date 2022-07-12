@@ -1,0 +1,32 @@
+setIcon(<futuremc:netherite_sword, nbt:{"Quark:RuneColor": 14, ench: [{id: 150s}], "Quark:RuneAttached": 1b}>)
+
+//<futuremc:netherite_sword>.withTag({"Quark:RuneColor": 14, ench: [{lvl: 10 as short, id: 150 as short}], Quality: {}, "Quark:RuneAttached": 1 as byte})
+
+setTitle("When the Doom music kicks in")
+
+setDescription("Wear netherite set with Hell Infusion and Magma Walker")
+
+addParent("triumph:AlmostVanilla/9SecretAdvancements")
+
+setShowToast(true)
+
+setRewardExperience(10)
+
+setPos(-24,-24)
+
+hideLines()
+
+criteria = addCriteria("hasItem1", "minecraft:inventory_changed")
+criteria.addItem(<futuremc:netherite_sword, nbt:{ench: [{id: 150s}]}>)
+
+criteria = addCriteria("hasItem2", "minecraft:inventory_changed")
+criteria.addItem(<futuremc:netherite_helmet>)
+
+criteria = addCriteria("hasItem3", "minecraft:inventory_changed")
+criteria.addItem(<futuremc:netherite_chestplate>)
+
+criteria = addCriteria("hasItem4", "minecraft:inventory_changed")
+criteria.addItem(<futuremc:netherite_leggings>)
+
+criteria = addCriteria("hasItem5", "minecraft:inventory_changed")
+criteria.addItem(<futuremc:netherite_boots, nbt:{ench: [{id: 116s}]}>)

@@ -1,0 +1,22 @@
+setIcon(<minecraft:brewing_stand>)
+
+setTitle("Has anyone seen my bottles?")
+
+setDescription("They say that even an ender dragon is afraid to drink your potions")
+
+//setCompletedIconColor(#ffe16b)
+setCompletedIconColor(#bbd4ed)
+setCompletedTitleColor(#bbd4ed)
+setCompletedLineColor(184, 200, 222)
+
+
+addParent("triumph:AlmostVanilla/3enchtable")
+
+setShowToast(true)
+
+setRewardExperience(4)
+
+setPos(-552,120)
+
+criteria = addCriteria("placedBlock", "minecraft:placed_block")
+criteria.setBlock(<minecraft:brewing_stand>)

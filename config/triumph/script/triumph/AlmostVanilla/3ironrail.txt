@@ -1,0 +1,21 @@
+setIcon(<minecraft:rail>)
+
+setTitle("Local metro")
+
+setDescription("Create some rails")
+
+setCompletedIconColor(#bbd4ed)
+setCompletedTitleColor(#bbd4ed)
+setCompletedLineColor(184, 200, 222)
+
+addParent("triumph:AlmostVanilla/3iron")
+
+setShowToast(true)
+
+setRewardExperience(10)
+
+setPos(-785,-14)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<minecraft:rail>)
+criteria.setCount(20)

@@ -1,0 +1,32 @@
+//This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
+
+setIcon(<minecraft:iron_block>)
+
+setTitle("The Iron Era")
+
+setDescription("May the planks be with you1")
+
+setCompletedIconColor(#bbd4ed)
+setCompletedTitleColor(#bbd4ed)
+setCompletedLineColor(184, 200, 222)
+
+//Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
+setBackground("minecraft:textures/blocks/glazed_terracotta_gray.png")
+
+setShowToast(true)
+
+setAnnounceToChat(true)
+
+setRewardExperience(10)
+
+setPos(-899,20)
+
+criteria = addCriteria("completedParent", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:almostvanilla/2fire")
+
+criteria = addCriteria("completedParent", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:almostvanilla/2xp")
+And
+criteria.setAdvancement("triumph:almostvanilla/2dummy")
+
+addRewardFunction("almostvanilla:The_Iron_Era")

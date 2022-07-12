@@ -1,0 +1,2 @@
+summon minecraft:fireworks_rocket ~ ~ ~
+give @p gamestagebooks:the_iron_era

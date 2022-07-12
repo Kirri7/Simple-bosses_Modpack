@@ -1,0 +1,24 @@
+setIcon(<ebwizardry:wizard_handbook>)
+
+setTitle("Welcome to the magic zone")
+
+setDescription("Only use magic for good deeds")
+
+setCompletedIconColor(#9283f2)
+setCompletedTitleColor(#9283f2)
+setCompletedLineColor(162, 150, 242)
+
+addParent("triumph:AlmostVanilla/3age")
+
+setShowToast(true)
+
+setRewardExperience(5)
+
+setPos(-485,-47)
+
+hideLines()
+
+criteria = addCriteria("hasCrystal", "minecraft:inventory_changed")
+criteria.addItem(<ebwizardry:magic_crystal>)
+
+setRewardItem(<ebwizardry:wizard_handbook>)

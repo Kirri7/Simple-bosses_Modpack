@@ -1,0 +1,22 @@
+setIcon(<toughasnails:jelled_slime_helmet>)
+
+setTitle("Cool spring day")
+
+setDescription("Hope I don't turn into a slime")
+
+setCompletedIconColor(#d18334)
+setCompletedTitleColor(#d18334)
+setCompletedLineColor(210, 155, 100)
+
+addParent("triumph:AlmostVanilla/2leggings")
+
+setShowToast(true)
+
+setRewardExperience(5)
+
+setPos(-697,-82)
+
+hideLines()
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<toughasnails:jelled_slime_helmet>)

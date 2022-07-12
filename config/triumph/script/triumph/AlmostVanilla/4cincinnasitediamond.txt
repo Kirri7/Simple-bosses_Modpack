@@ -1,0 +1,21 @@
+setIcon(<betternether:cincinnasite_pickaxe_diamond>)
+
+setTitle("Pig civilization tools")
+
+setDescription("Craft Cincinnasite-Diamond tools from Nether")
+
+addParent("triumph:AlmostVanilla/4buildingtool")
+
+setShowToast(true)
+
+setRewardExperience(20)
+
+setPos(-918,4)
+
+criteria = addCriteria("hasItem1", "minecraft:inventory_changed")
+criteria.addItem(<betternether:cincinnasite_axe_diamond>)
+
+criteria = addCriteria("hasItem2", "minecraft:inventory_changed")
+criteria.addItem(<betternether:cincinnasite_pickaxe_diamond>)
+
+addRewardFunction("almostvanilla:adventures")

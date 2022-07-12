@@ -1,0 +1,24 @@
+setIcon(<minecraft:porkchop>)
+
+setTitle("Welcome to Ukraine!")
+
+setDescription("Have an argue with a pig")
+
+setUncompletedIconColor(#FFD700)
+setUncompletedTitleColor(#0057B8)
+setCompletedTitleColor(#0057B8)
+
+setFrameType("challenge")
+
+addParent("triumph:AlmostVanilla/1travel")
+
+setShowToast(true)
+
+setRewardExperience(10)
+
+setPos(-310,-44)
+
+hideLines()
+
+criteria = addCriteria("hurt_pig", "minecraft:player_hurt_entity")
+criteria.setEntityType("minecraft:pig")

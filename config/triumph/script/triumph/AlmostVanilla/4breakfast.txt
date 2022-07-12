@@ -1,0 +1,18 @@
+setIcon(<harvestcraft:cornedbeefbreakfastitem>)
+
+setTitle("Light breakfast")
+
+setDescription("I will have 2 number 9s and Corned Beef Breakfast with large Soda")
+
+addParent("triumph:AlmostVanilla/4netherite")
+
+setShowToast(true)
+
+setRewardExperience(20)
+
+setPos(-806,4)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<harvestcraft:cornedbeefbreakfastitem>)
+
+addRewardFunction("almostvanilla:adventures")

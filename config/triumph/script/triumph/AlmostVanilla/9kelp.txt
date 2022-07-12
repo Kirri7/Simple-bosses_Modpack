@@ -1,0 +1,23 @@
+setIcon(<backportedflora:kelp, nbt:{"Quark:RuneColor": 16, ench: [{id: 1s}], "Quark:RuneAttached": 1b}>)
+
+setTitle("Kelp worship cult")
+
+setDescription("Fill your pockets with kelp")
+
+addParent("triumph:AlmostVanilla/9SecretAdvancements")
+
+setShowToast(true)
+
+setRewardExperience(10)
+
+setPos(0,0)
+
+hideLines()
+
+criteria = addCriteria("hasItem1", "minecraft:inventory_changed")
+criteria.addItem(<backportedflora:kelp>)
+criteria.setCount(32)
+
+criteria = addCriteria("hasItem2", "minecraft:inventory_changed")
+criteria.addItem(<backportedflora:kelp, count:27>)
+criteria.setCount(32)

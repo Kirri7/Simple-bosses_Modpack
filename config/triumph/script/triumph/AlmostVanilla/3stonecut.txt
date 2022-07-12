@@ -1,0 +1,20 @@
+setIcon(<futuremc:stonecutter>)
+
+setTitle("Stone cutter")
+
+setDescription("Don't put your fingers in there!")
+
+setCompletedIconColor(#bbd4ed)
+setCompletedTitleColor(#bbd4ed)
+setCompletedLineColor(184, 200, 222)
+
+addParent("triumph:AlmostVanilla/3blastfurnace")
+
+setShowToast(true)
+
+setRewardExperience(4)
+
+setPos(-753,53)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<futuremc:stonecutter>)

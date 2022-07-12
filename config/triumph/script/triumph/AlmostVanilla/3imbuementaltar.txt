@@ -1,0 +1,26 @@
+setIcon(<ebwizardry:imbuement_altar>)
+
+setTitle("Imbuement altar")
+
+setDescription("It seems that it doesn't belong to anyone, so I will take it for myself")
+
+setCompletedIconColor(#9283f2)
+setCompletedTitleColor(#9283f2)
+setCompletedLineColor(162, 150, 242)
+
+addParent("triumph:AlmostVanilla/3arcanbench")
+
+setShowToast(true)
+
+setRewardExperience(5)
+
+setPos(-427,-88)
+
+
+criteria = addCriteria("completedParent", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:almostvanilla/3age")
+
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock(<ebwizardry:imbuement_altar>)
+
+setRewardItem(<ebwizardry:crystal_flower>)

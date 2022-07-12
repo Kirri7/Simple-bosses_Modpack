@@ -1,0 +1,28 @@
+setIcon(<iceandfire:deathworm_red_helmet>)
+
+setTitle("Desert worm hunter")
+
+setDescription("Get nice looking worm armor")
+
+addParent("triumph:AlmostVanilla/4age")
+
+setShowToast(true)
+
+setRewardExperience(20)
+
+setPos(-858,-97)
+
+hideLines()
+
+criteria = addCriteria("crafted1", "triumph:player_crafted_item")
+criteria.setItem(<iceandfire:deathworm_yellow_helmet>)
+
+criteria = addCriteria("crafted2", "triumph:player_crafted_item")
+criteria.setItem(<iceandfire:deathworm_white_helmet>)
+
+criteria = addCriteria("crafted2", "triumph:player_crafted_item")
+criteria.setItem(<iceandfire:deathworm_red_helmet>)
+
+setRequirements("any")
+
+addRewardFunction("almostvanilla:adventures")

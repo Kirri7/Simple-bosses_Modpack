@@ -1,0 +1,635 @@
+{
+	"version": "2.0",
+	"spawns": {
+		"quartz_ore": {
+			"retrogen": false,
+			"enabled": true,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [
+				-1
+			],
+			"biomes": {
+				"excludes": []
+			},
+			"parameters": {
+				"size": 15,
+				"variation": 4,
+				"frequency": 7,
+				"minHeight": 0,
+				"maxHeight": 128
+			},
+			"blocks": [
+				{
+					"name": "minecraft:quartz_ore",
+					"chance": 100
+				}
+			]
+		},
+		"coal_ore_swamps": {
+			"retrogen": false,
+			"enabled": true,
+			"feature": "precision",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"includes": [
+					"SWAMP"
+				]
+			},
+			"parameters": {
+				"size": 3,
+				"numObjects": 58,
+				"minHeight": 47,
+				"maxHeight": 79
+			},
+			"blocks": [
+				{
+					"name": "minecraft:coal_ore",
+					"chance": 100
+				}
+			]
+		},
+		"lapis_ore": {
+			"retrogen": false,
+			"enabled": true,
+			"feature": "clusters",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"includes": [
+					"biomesoplenty:lavender_fields"
+				]
+			},
+			"parameters": {
+				"size": 2,
+				"variation": 1,
+				"frequency": 64,
+				"maxSpread": 14,
+				"minHeight": 36,
+				"maxHeight": 70,
+				"numObjects": 26
+			},
+			"blocks": [
+				{
+					"name": "minecraft:lapis_ore",
+					"chance": 100
+				}
+			]
+		},
+		"vulkan_ore": {
+			"retrogen": false,
+			"enabled": false,
+			"feature": "clusters",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"includes": [
+					"biomesoplenty:volcanic_island"
+				]
+			},
+			"parameters": {
+				"size": 2,
+				"variation": 1,
+				"frequency": 30,
+				"maxSpread": 16,
+				"minHeight": 38,
+				"maxHeight": 79,
+				"numObjects": 22
+			},
+			"blocks": [
+				{
+					"name": "futureminecraf:ancientdebris",
+					"chance": 100
+				}
+			]
+		},
+		"iron_ore_vein_ocean": {
+			"retrogen": false,
+			"enabled": true,
+			"feature": "vein",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"includes": [
+					"OCEAN",
+					"biomesoplenty:crag"
+				]
+			},
+			"parameters": {
+				"size": 1,
+				"variation": 0,
+				"frequency": 45,
+				"length": 22,
+				"minHeight": 12,
+				"maxHeight": 60,
+				"startFacing": "HORIZONTAL"
+			},
+			"blocks": [
+				{
+					"name": "minecraft:iron_ore",
+					"chance": 100
+				}
+			]
+		},
+		"slime_ore": {
+			"retrogen": false,
+			"enabled": true,
+			"feature": "clusters",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"includes": [
+					"SWAMP"
+				]
+			},
+			"parameters": {
+				"size": 5,
+				"variation": 1,
+				"frequency": 64,
+				"maxSpread": 14,
+				"minHeight": 42,
+				"maxHeight": 79,
+				"numObjects": 24
+			},
+			"blocks": [
+				{
+					"name": "utilitybaseores:slime_ore",
+					"chance": 70
+				},
+				{
+					"name": "minecraft:coal_ore",
+					"chance": 30				    
+				}
+			]
+		},
+		"bone_ore": {
+			"retrogen": false,
+			"enabled": true,
+			"feature": "clusters",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"excludes": [
+					"biomesoplenty:lavender_fields",
+					"biomesoplenty:volcanic_island",
+					"biomesoplenty:tropical_island"
+				]
+			},
+			"parameters": {
+				"size": 2,
+				"variation": 1,
+				"frequency": 32,
+				"maxSpread": 32,
+				"minHeight": 32,
+				"maxHeight": 79,
+				"numObjects": 28
+			},
+			"blocks": [
+				{
+					"name": "utilitybaseores:bone_ore",
+					"chance": 100
+				}
+			]
+		},
+		"rotten_ore": {
+			"retrogen": false,
+			"enabled": true,
+			"feature": "clusters",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"excludes": [
+					"biomesoplenty:lavender_fields",
+					"biomesoplenty:volcanic_island",
+					"biomesoplenty:tropical_island"
+				]
+			},
+			"parameters": {
+				"size": 2,
+				"variation": 1,
+				"frequency": 32,
+				"maxSpread": 32,
+				"minHeight": 32,
+				"maxHeight": 79,
+				"numObjects": 28
+			},
+			"blocks": [
+				{
+					"name": "utilitybaseores:rotten_ore",
+					"chance": 100
+				}
+			]
+		},
+		"monster_ore": {
+			"retrogen": false,
+			"enabled": true,
+			"feature": "precision",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"includes": [
+					"biomesoplenty:dead_forest",
+					"biomesoplenty:ominous_woods",
+					"biomesoplenty:mystic_grove",
+					"biomesoplenty:wasteland"
+				]
+			},
+			"parameters": {
+				"size": 3,
+				"variation": 2,
+				"numObjects": 22,
+				"minHeight": 10,
+				"maxHeight": 50
+			},
+			"blocks": [
+				{
+					"name": "minecraft:monster_egg",
+					"chance": 100
+				}
+			]
+		},
+		"magma_ore": {
+			"retrogen": false,
+			"enabled": true,
+			"feature": "clusters",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"excludes": [
+					"biomesoplenty:lavender_fields"
+				]
+			},
+			"parameters": {
+				"size": 2,
+				"variation": 1,
+				"frequency": 12,
+				"maxSpread": 20,
+				"minHeight": 0,
+				"maxHeight": 18,
+				"numObjects": 18
+			},
+			"blocks": [
+				{
+					"name": "utilitybaseores:magma_ore",
+					"chance": 100
+				}
+			]
+		},
+		"blaze_ore": {
+			"retrogen": false,
+			"enabled": true,
+			"feature": "clusters",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"excludes": [
+					"biomesoplenty:lavender_fields"
+				]
+			},
+			"parameters": {
+				"size": 2,
+				"variation": 1,
+				"frequency": 5,
+				"maxSpread": 18,
+				"minHeight": 1,
+				"maxHeight": 16,
+				"numObjects": 18
+			},
+			"blocks": [
+				{
+					"name": "utilitybaseores:blaze_ore",
+					"chance": 100
+				}
+			]
+		},
+		"ender_ore": {
+			"retrogen": false,
+			"enabled": true,
+			"feature": "clusters",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"includes": [
+					"biomesoplenty:mystic_grove",
+					"biomesoplenty:ominous_woods",
+					"biomesoplenty:crag"
+				]
+			},
+			"parameters": {
+				"size": 2,
+				"variation": 1,
+				"frequency": 60,
+				"maxSpread": 14,
+				"minHeight": 42,
+				"maxHeight": 79,
+				"numObjects": 32
+			},
+			"blocks": [
+				{
+					"name": "utilitybaseores:ender_ore",
+					"chance": 100
+				}
+			]
+		},
+		"flint_ore": {
+			"retrogen": false,
+			"enabled": true,
+			"feature": "precision",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"excludes": []
+			},
+			"parameters": {
+				"size": 1,
+				"numObjects": 22,
+				"minHeight": 32,
+				"maxHeight": 79
+			},
+			"blocks": [
+				{
+					"name": "utilitybaseores:flint_ore",
+					"chance": 30
+				},
+				{
+					"name": "utilitybaseores:gunpowder_ore",
+					"chance": 50
+				},				
+				{
+					"name": "utilitybaseores:glowstone_ore",
+					"chance": 20
+				}
+			]
+		},
+		"gold_ore_mesa": {
+			"retrogen": false,
+			"enabled": true,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"includes": [
+					"MESA",
+					"biomesoplenty:tropical_island",
+					"biomesoplenty:crag"
+				]
+			},
+			"parameters": {
+				"size": 1,
+				"variation": 4,
+				"frequency": 55,
+				"minHeight": 32,
+				"maxHeight": 82
+			},
+			"blocks": [
+				{
+					"name": "minecraft:gold_ore",
+					"chance": 100
+				}
+			]
+		},
+		"gold_ore_hot": {
+			"retrogen": false,
+			"enabled": true,
+			"feature": "precision",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"includes": [
+					"SANDY",
+					"MESA"
+				]
+			},
+			"parameters": {
+				"size": 4,
+				"numObjects": 6,
+				"minHeight": 12,
+				"maxHeight": 62
+			},
+			"blocks": [
+				{
+					"name": "minecraft:gold_ore",
+					"chance": 100
+				}
+			]
+		},
+		"diamond_ore_ocean": {
+			"retrogen": false,
+			"enabled": true,
+			"feature": "precision",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"includes": [
+					"Ocean",
+					"biomesoplenty:crag"
+				]
+			},
+			"parameters": {
+				"size": 7,
+				"numObjects": 4,
+				"minHeight": 2,
+				"maxHeight": 16
+			},
+			"blocks": [
+				{
+					"name": "minecraft:diamond_ore",
+					"chance": 35
+				},
+				{
+					"name": "minecraft:coal_ore",
+					"chance": 65
+				}
+			]
+		},
+		"prizmarin_ore": {
+			"retrogen": false,
+			"enabled": true,
+			"feature": "precision",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"includes": [
+					"OCEAN",
+					"RIVER"
+				]
+			},
+			"parameters": {
+				"size": 4,
+				"numObjects": 12,
+				"minHeight": 12,
+				"maxHeight": 62
+			},
+			"blocks": [
+				{
+					"name": "utilitybaseores:prismarine_ore",
+					"chance": 100
+				}
+			]
+		},
+		"iron_ore": {
+			"retrogen": false,
+			"enabled": true,
+			"feature": "precision",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"excludes": []
+			},
+			"parameters": {
+				"size": 7,
+				"numObjects": 15,
+				"minHeight": 0,
+				"maxHeight": 150
+			},
+			"blocks": [
+				{
+					"name": "minecraft:gold_ore",
+					"chance": 5
+				},
+				{
+					"name": "minecraft:iron_ore",
+					"chance": 95
+				}
+			]
+		},		
+		"diamond_ore": {
+			"retrogen": false,
+			"enabled": true,
+			"feature": "precision",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"excludes": []
+			},
+			"parameters": {
+				"size": 12,
+				"numObjects": 1,
+				"minHeight": 0,
+				"maxHeight": 16
+			},
+			"blocks": [
+				{
+					"name": "minecraft:diamond_ore",
+					"chance": 40
+				},
+				{
+					"name": "minecraft:monster_egg",
+					"chance": 60
+				}
+			]
+		},
+		"emerald_ore": {
+			"retrogen": false,
+			"enabled": true,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"includes": [
+					"MOUNTAIN"
+				]
+			},
+			"parameters": {
+				"size": 1,
+				"variation": 0,
+				"frequency": 8,
+				"minHeight": 4,
+				"maxHeight": 32
+			},
+			"blocks": [
+				{
+					"name": "minecraft:emerald_ore",
+					"chance": 100
+				}
+			]
+		},
+		"terracota_ore": {
+			"retrogen": false,
+			"enabled": true,
+			"feature": "clusters",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"excludes": [
+				]
+			},
+			"parameters": {
+				"size": 3,
+				"variation": 2,
+				"frequency": 55,
+				"maxSpread": 28,
+				"minHeight": 10,
+				"maxHeight": 90,
+				"numObjects": 10
+			},
+			"blocks": [
+				{
+					"name": "minecraft:stained_hardened_clay",
+					"chance": 100,
+					"state": "color=cyan"
+				}
+			]
+		},
+		"cobblestone_ore": {
+			"retrogen": false,
+			"enabled": true,
+			"feature": "clusters",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"excludes": [
+				]
+			},
+			"parameters": {
+				"size": 4,
+				"variation": 3,
+				"frequency": 77,
+				"maxSpread": 28,
+				"minHeight": 10,
+				"maxHeight": 90,
+				"numObjects": 20
+			},
+			"blocks": [
+				{
+					"name": "minecraft:cobblestone",
+					"chance": 100
+				}
+			]
+		},
+		"dirt": {
+			"retrogen": false,
+			"enabled": true,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [],
+			"biomes": {
+				"excludes": []
+			},
+			"parameters": {
+				"size": 112,
+				"variation": 50,
+				"frequency": 12,
+				"minHeight": 0,
+				"maxHeight": 255
+			},
+			"blocks": [
+				{
+					"name": "minecraft:dirt",
+					"chance": 37,
+					"state": "snowy=false,variant=dirt"
+				},
+				{
+					"name": "minecraft:dirt",
+					"chance": 55,
+					"state": "snowy=false,variant=coarse_dirt"
+				},
+				{
+					"name": "minecraft:iron_ore",
+					"chance": 8
+				}				
+			]
+		}		
+	}
+}

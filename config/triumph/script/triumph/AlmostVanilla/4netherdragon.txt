@@ -1,0 +1,24 @@
+setIcon(<cqrepoured:helmet_dragon>)
+
+setTitle("Dragon, but in the Nether?")
+
+setDescription("")
+
+setFrameType("challenge")
+
+addParent("triumph:AlmostVanilla/4age")
+
+setShowToast(true)
+
+setRewardExperience(40)
+
+setPos(-838,-134)
+
+hideLines()
+
+criteria = addCriteria("killed_entity", "minecraft:player_killed_entity")
+criteria.setEntityType("cqrepoured:nether_dragon")
+
+setRewardItem(<cqrepoured:shield_dragonslayer>)
+
+addRewardFunction("almostvanilla:adventures")

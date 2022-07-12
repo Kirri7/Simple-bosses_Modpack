@@ -1,0 +1,20 @@
+setIcon(<spartanweaponry:halberd_wood>)
+
+setTitle("Halberd")
+
+setDescription("Shield's nightmare")
+
+setCompletedIconColor(#d18334)
+setCompletedTitleColor(#d18334)
+setCompletedLineColor(210, 155, 100)
+
+addParent("triumph:AlmostVanilla/2lance")
+
+setShowToast(true)
+
+setRewardExperience(5)
+
+setPos(-436,91)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<spartanweaponry:halberd_wood>)

@@ -1,0 +1,25 @@
+setIcon(<steel_co:steel_ingot>)
+
+setTitle("Steel")
+
+setDescription("Iron - who ary you?                                                  Steel - I'm you, but stronger")
+
+setUncompletedIconColor(#C0C0C0)
+setCompletedIconColor(#B0C4DE)
+setUncompletedTitleColor(#C0C0C0)
+setCompletedTitleColor(#778899)
+
+setFrameType("goal")
+
+addParent("triumph:AlmostVanilla/3ironarmor")
+
+setShowToast(true)
+
+setRewardExperience(10)
+
+setPos(-427,20)
+
+criteria = addCriteria("steel", "minecraft:inventory_changed")
+criteria.addItem(<steel_co:steel_ingot>)
+
+addRewardFunction("almostvanilla:steel")

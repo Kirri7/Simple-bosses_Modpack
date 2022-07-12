@@ -1,0 +1,24 @@
+setIcon(<advancedmortars:mortar>)
+
+setTitle("Mortar")
+
+setDescription("For new recipes")
+
+setCompletedIconColor(#d18334)
+setCompletedTitleColor(#d18334)
+setCompletedLineColor(210, 155, 100)
+
+setFrameType("goal")
+
+addParent("triumph:AlmostVanilla/2wshears")
+
+setShowToast(true)
+
+setRewardExperience(3)
+
+setPos(-690,2)
+
+hideLines()
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<advancedmortars:mortar>)

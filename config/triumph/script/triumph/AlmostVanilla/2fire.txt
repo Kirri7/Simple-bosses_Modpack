@@ -1,0 +1,22 @@
+setIcon(<futuremc:campfire>)
+
+setTitle("Just \"chilling\"")
+
+setDescription("Sit down a bit near campfire with marshmallows")
+
+setCompletedIconColor(#d18334)
+setCompletedTitleColor(#d18334)
+setCompletedLineColor(210, 155, 100)
+
+addParent("triumph:AlmostVanilla/2wshears")
+
+setShowToast(true)
+
+setRewardExperience(5)
+
+setPos(-555,29)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<futuremc:campfire>)
+
+addRewardFunction("almostvanilla:Fire")

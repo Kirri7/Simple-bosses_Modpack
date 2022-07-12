@@ -1,0 +1,23 @@
+setIcon(<placeableitems:item_horse_armor_stand>)
+
+setTitle("A cozy home for everyone")
+
+setDescription("Craft saddle and horse armor stands")
+
+setCompletedIconColor(#bbd4ed)
+setCompletedTitleColor(#bbd4ed)
+setCompletedLineColor(184, 200, 222)
+
+addParent("triumph:AlmostVanilla/3saddle")
+
+setShowToast(true)
+
+setRewardExperience(5)
+
+setPos(-652,-48)
+
+criteria = addCriteria("crafted1", "triumph:player_crafted_item")
+criteria.setItem(<placeableitems:item_horse_armor_stand>)
+
+criteria = addCriteria("crafted2", "triumph:player_crafted_item")
+criteria.setItem(<placeableitems:item_saddle_stand>)

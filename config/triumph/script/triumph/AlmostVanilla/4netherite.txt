@@ -1,0 +1,20 @@
+setIcon(<futuremc:netherite_ingot>)
+
+setTitle("Hello there!")
+
+setDescription("Create netherite ingot")
+
+setFrameType("goal")
+
+addParent("triumph:AlmostVanilla/4cincinnasitediamond")
+
+setShowToast(true)
+
+setRewardExperience(20)
+
+setPos(-862,4)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<futuremc:netherite_ingot>)
+
+addRewardFunction("almostvanilla:adventures")

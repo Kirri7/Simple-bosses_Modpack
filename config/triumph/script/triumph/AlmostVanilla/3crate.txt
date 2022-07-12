@@ -1,0 +1,20 @@
+setIcon(<charm:crate_sealed>)
+
+setTitle("Package your clothes")
+
+setDescription("Make the crate sealed using anvil")
+
+setCompletedIconColor(#bbd4ed)
+setCompletedTitleColor(#bbd4ed)
+setCompletedLineColor(184, 200, 222)
+
+addParent("triumph:AlmostVanilla/3anvil")
+
+setShowToast(true)
+
+setRewardExperience(5)
+
+setPos(-585,-14)
+
+criteria = addCriteria("crate", "minecraft:inventory_changed")
+criteria.addItem(<charm:crate_sealed>)

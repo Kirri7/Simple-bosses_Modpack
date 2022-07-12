@@ -1,0 +1,28 @@
+[
+ {
+   "block": "ebwizardry:imbuement_altar",
+   "gamestage": "The_Iron_Era", 
+   "result": "allow"
+ },
+ {
+   "helditem": [ "minecraft:wooden_axe", "minecraft:stone_axe" ],
+   "block": "biomesoplenty:log_0",
+   "setblock": { "block": "futuremc:stripped_oak_log" }
+ },
+ {
+   "helditem": [ "minecraft:wooden_axe", "minecraft:stone_axe" ],
+   "block": "biomesoplenty:log_1",
+   "setblock": { "block": "futuremc:stripped_jungle_log" }
+ },
+ {
+   "helditem": [ "minecraft:wooden_axe", "minecraft:stone_axe" ],
+   "block": "biomesoplenty:log_2",
+   "setblock": { "block": "futuremc:stripped_acacia_log" }
+ },
+ {
+   "helditem": [ "minecraft:wooden_axe", "minecraft:stone_axe" ],
+   "block": "biomesoplenty:log_3",
+   "setblock": { "block": "futuremc:stripped_birch_log" }
+ }
+
+]

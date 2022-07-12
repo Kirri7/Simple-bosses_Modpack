@@ -1,0 +1,20 @@
+setIcon(<minecraft:enchanting_table>)
+
+setTitle("Season of enchanting is open")
+
+setDescription("It's time to remember about those xp books")
+
+setCompletedIconColor(#82bad9)
+setCompletedTitleColor(#82bad9)
+setCompletedLineColor(184, 200, 222)
+
+addParent("triumph:AlmostVanilla/3anvil")
+
+setShowToast(true)
+
+setRewardExperience(18)
+
+setPos(-552,53)
+
+criteria = addCriteria("placedBlock", "minecraft:placed_block")
+criteria.setBlock(<minecraft:enchanting_table>)

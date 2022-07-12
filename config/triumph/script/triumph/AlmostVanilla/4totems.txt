@@ -1,0 +1,46 @@
+setIcon(<totemexpansion:totem_lava>)
+
+setTitle("For a rainy day")
+
+setDescription("Fill your pockets with all types of totems")
+
+setFrameType("challenge")
+
+addParent("triumph:AlmostVanilla/4age")
+
+setShowToast(true)
+
+setRewardExperience(30)
+
+setPos(-998,53)
+
+hideLines()
+
+criteria = addCriteria("hasItem1", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:totem_of_undying>)
+
+criteria = addCriteria("hasItem2", "minecraft:inventory_changed")
+criteria.addItem(<totemexpansion:totem_falling>)
+
+criteria = addCriteria("hasItem3", "minecraft:inventory_changed")
+criteria.addItem(<totemexpansion:totem_lava>)
+
+addRewardFunction("almostvanilla:adventures")
+
+criteria = addCriteria("hasItem4", "minecraft:inventory_changed")
+criteria.addItem(<totemexpansion:totem_breathing>)
+
+criteria = addCriteria("hasItem5", "minecraft:inventory_changed")
+criteria.addItem(<totemexpansion:totem_explode>)
+
+criteria = addCriteria("hasItem6", "minecraft:inventory_changed")
+criteria.addItem(<totemexpansion:totem_repair>)
+
+criteria = addCriteria("hasItem7", "minecraft:inventory_changed")
+criteria.addItem(<totemexpansion:totem_spelunking>)
+
+criteria = addCriteria("hasItem8", "minecraft:inventory_changed")
+criteria.addItem(<totemexpansion:totem_recalling>)
+
+criteria = addCriteria("hasItem9", "minecraft:inventory_changed")
+criteria.addItem(<charm:totem_of_shielding>)

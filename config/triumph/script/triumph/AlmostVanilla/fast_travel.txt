@@ -1,0 +1,14 @@
+
+setIcon("minecraft:map")
+setTranslatedTitle("Traveller")
+setTranslatedDescription("Description")
+
+setFrameType("challenge")
+
+addParent("triumph:AlmostVanilla/root2")
+
+setRewardExperience(100)
+
+criteria = addCriteria("travelled", "minecraft:travel")
+distance = criteria.getDistanceData()
+distance.setHorizontalMin(10)

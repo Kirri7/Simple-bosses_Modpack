@@ -1,0 +1,20 @@
+setIcon(<minecraft:nether_star>)
+
+setTitle("Three heads are better than one or not?")
+
+setDescription("")
+
+addParent("triumph:AlmostVanilla/4age")
+
+setShowToast(true)
+
+setRewardExperience(20)
+
+setPos(-1058,-57)
+
+hideLines()
+
+criteria = addCriteria("killed_entity", "minecraft:player_killed_entity")
+criteria.setEntityType("minecraft:wither")
+
+addRewardFunction("almostvanilla:adventures")

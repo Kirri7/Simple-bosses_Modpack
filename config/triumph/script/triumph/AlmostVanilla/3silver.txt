@@ -1,0 +1,20 @@
+setIcon(<iceandfire:silver_ingot>)
+
+setTitle("Shiny Silver")
+
+setDescription("Good material that undead are afraid of")
+
+setCompletedIconColor(#bbd4ed)
+setCompletedTitleColor(#bbd4ed)
+setCompletedLineColor(184, 200, 222)
+
+addParent("triumph:AlmostVanilla/3chainmail")
+
+setShowToast(true)
+
+setRewardExperience(5)
+
+setPos(-619,20)
+
+criteria = addCriteria("silver", "minecraft:inventory_changed")
+criteria.addItem(<iceandfire:silver_ingot>)

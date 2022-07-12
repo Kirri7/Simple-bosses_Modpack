@@ -1,0 +1,23 @@
+setIcon(<minecraft:string>)
+
+setTitle("Strained relations")
+
+setDescription("Stroke 5 spiders with your sword")
+
+setCompletedIconColor(#d18334)
+setCompletedTitleColor(#d18334)
+setCompletedLineColor(210, 155, 100)
+
+setFrameType("challenge")
+
+addParent("triumph:AlmostVanilla/2leggings")
+
+setShowToast(true)
+
+setRewardExperience(20)
+
+setPos(-587,-76)
+
+criteria = addCriteria("killed_spider", "minecraft:player_killed_entity")
+criteria.setEntityType("spiderstpo:better_spider")
+criteria.setCount(5)

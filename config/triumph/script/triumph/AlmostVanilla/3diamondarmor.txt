@@ -1,0 +1,16 @@
+setIcon(<minecraft:diamond_chestplate>)
+
+setTitle("SpongeBob ChainPants213")
+
+setDescription("Figure out how to make a chain armor213")
+
+addParent("triumph:AlmostVanilla/3steel")
+
+setShowToast(true)
+
+setRewardExperience(12)
+
+setPos(-427,53)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<minecraft:diamond_chestplate>)

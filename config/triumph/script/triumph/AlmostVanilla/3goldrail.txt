@@ -1,0 +1,23 @@
+setIcon(<minecraft:golden_rail>)
+
+setTitle("Furnace carts aren't needed")
+
+setDescription("Upgrade your rails with gold ones")
+
+setCompletedIconColor(#bbd4ed)
+setCompletedTitleColor(#bbd4ed)
+setCompletedLineColor(184, 200, 222)
+
+setFrameType("goal")
+
+addParent("triumph:AlmostVanilla/3ironrail")
+
+setShowToast(true)
+
+setRewardExperience(16)
+
+setPos(-719,-14)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<minecraft:golden_rail>)
+criteria.setCount(15)

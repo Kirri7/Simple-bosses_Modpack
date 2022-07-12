@@ -1,0 +1,23 @@
+//This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
+
+setIcon(<cqrepoured:dungeon_placer_d18>)
+
+setTitle("Adventures are just beginning")
+
+setDescription("")
+
+setFrameType("goal")
+
+//Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
+setBackground("minecraft:textures/blocks/glazed_terracotta_red.png")
+
+setShowToast(true)
+
+setAnnounceToChat(true)
+
+setRewardExperience(5)
+
+setPos(-1090,4)
+
+criteria = addCriteria("completedParent", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:almostvanilla/3anvil")

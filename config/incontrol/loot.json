@@ -1,0 +1,35 @@
+[
+  {
+    "mob": "minecraft:blaze",
+    "remove": "minecraft:blaze_rod"
+  },
+  {
+    "mob": "minecraft:blaze",
+    "structure": "Fortress",
+    "player": true,
+    "item": "minecraft:blaze_rod",
+    "itemcount": "2-3/3-4/4-6"
+  },
+  {
+    "mob": "VillagerGolem",
+    "remove": ["minecraft:iron_ingot", "mod_lavacow:intestine"]
+  },
+  {
+    "mob": "grimoireofgaia:illager_inquisitor",
+    "player": true,
+    "item": "minecraft:gold_ingot",
+    "itemcount": "1-2/2-3/3-4"
+  },
+  {
+    "mob": "grimoireofgaia:ender_girl",
+    "remove": "grimoireofgaia:spawn_ender_girl"
+  },
+  {
+    "mob": "grimoireofgaia:slime_girl",
+    "remove": "grimoireofgaia:spawn_slime_girl"
+  },
+  {
+    "mob": "grimoireofgaia:creeper_girl",
+    "remove": "grimoireofgaia:spawn_creeper_girl"
+  }        
+]

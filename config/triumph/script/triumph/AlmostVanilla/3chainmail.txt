@@ -1,0 +1,22 @@
+setIcon(<minecraft:chainmail_leggings>)
+
+setTitle("SpongeBob ChainPants")
+
+setDescription("Figure out how to make a chain armor")
+
+setCompletedIconColor(#bbd4ed)
+setCompletedTitleColor(#bbd4ed)
+setCompletedLineColor(184, 200, 222)
+
+addParent("triumph:AlmostVanilla/3blastfurnace")
+
+setShowToast(true)
+
+setRewardExperience(10)
+
+setPos(-686,20)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<minecraft:chainmail_leggings>)
+
+addRewardFunction("almostvanilla:chain")
