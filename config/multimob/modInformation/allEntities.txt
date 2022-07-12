@@ -89,7 +89,10 @@ biomesoplenty:mudball
 biomesoplenty:bop_boat
 biomesoplenty:wasp
 aqua_creepers:aqua_creeper
-quark:chest_passenger
+quark:flat_item_frame
+quark:leash_knot
+quark:colored_item_frame
+quark:glass_item_frame
 quark:pickarang
 quark:arrow_ender
 quark:stoneling
@@ -101,11 +104,7 @@ quark:frog
 quark:pirate
 quark:crab
 quark:wraith
-quark:flat_item_frame
-quark:leash_knot
-quark:colored_item_frame
-quark:glass_item_frame
-ichunutil:entity_block
+quark:chest_passenger
 bearwithme:entities/grizzly_bear
 bearwithme:entities/black_bear
 bearwithme:entities/panda_bear
@@ -116,6 +115,7 @@ charm:charged_emerald
 charm:spectre
 doggytalents:dog
 doggytalents:attackbeam
+ichunutil:entity_block
 melongolem:melon_golem
 melongolem:melon_slice
 melongolem:tiny_melon_golem
@@ -124,6 +124,9 @@ testdummy:floating_number
 testdummy:floating_number_dps
 multimob:dummy
 thesummoner:summoner
+tor:ore_troll
+tor:small_wither
+tor:small_wither_skull
 ancientwarfarenpc:aw_npc_combat
 ancientwarfarenpc:aw_npc_worker
 ancientwarfarenpc:aw_npc_courier
@@ -437,6 +440,7 @@ mutantbeasts:mutant_zombie
 mutantbeasts:skull_spirit
 mutantbeasts:spider_pig
 mutantbeasts:throwable_block
+pigarmy:pig
 spartanweaponry:bolt
 spartanweaponry:bolt_specral
 spartanweaponry:dagger_thrown
@@ -473,4 +477,6 @@ pvj:pvj_boat
 pvj:pvj_coconut
 corpse:corpse
 dailies:bailey
+lucky:luckyprojectile
+lucky:luckypotion
 persistent_players:player
