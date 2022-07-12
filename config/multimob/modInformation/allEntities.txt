@@ -89,10 +89,6 @@ biomesoplenty:mudball
 biomesoplenty:bop_boat
 biomesoplenty:wasp
 aqua_creepers:aqua_creeper
-quark:flat_item_frame
-quark:leash_knot
-quark:colored_item_frame
-quark:glass_item_frame
 quark:pickarang
 quark:arrow_ender
 quark:stoneling
@@ -105,6 +101,10 @@ quark:pirate
 quark:crab
 quark:wraith
 quark:chest_passenger
+quark:flat_item_frame
+quark:leash_knot
+quark:colored_item_frame
+quark:glass_item_frame
 bearwithme:entities/grizzly_bear
 bearwithme:entities/black_bear
 bearwithme:entities/panda_bear

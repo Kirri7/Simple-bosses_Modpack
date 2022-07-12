@@ -1,8 +1,8 @@
-[16:16:24] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
-[16:16:24] [Client thread/INFO] [JourneymapClient] initialize ENTER
-[16:16:24] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[16:16:24] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
-[16:16:24] [Client thread/INFO] [?] Version: JourneyMap 1.12.2-5.7.1, built with Forge 14.23.5.2768
+[16:23:30] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
+[16:23:30] [Client thread/INFO] [JourneymapClient] initialize ENTER
+[16:23:30] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[16:23:30] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[16:23:30] [Client thread/INFO] [?] Version: JourneyMap 1.12.2-5.7.1, built with Forge 14.23.5.2768
 Forge: 14.23.5.2860
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=ru_ru, locale=ru_ru
 Features: 
@@ -19,17 +19,24 @@ FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.7
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.7.1, autoRemoveDeathpointDistance=2, createDeathpoints=true, showName=true, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, maxDistance=0, autoHideLabel=true, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, minDistance=4, timeFormat=HH:mm:ss, boldLabel=false, textureSmall=true, showDeathpointlabel=true, showDistance=true, showRotatingBeam=true, fontScale=2, showTexture=true, managerEnabled=true, beaconEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.7.1, zoomLevel=0, showWaypoints=true, showCaves=true, showSelf=true, port=8080, showGrid=true, showEntityNames=true, enabled=false, preferredMapType=day}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.7.1, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, renderOverlayEventTypeName=ALL, mapBlendWater=false, renderDistanceSurfaceMax=7, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=Окружность, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, browserPoll=2000, mapBlendFoliage=true, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=3, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=null, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, renderOverlayPreEvent=true, autoMapPoll=2000}
-[16:16:24] [Client thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.4
-[16:16:24] [Client thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[16:16:24] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg ?ms
-[16:16:36] [Client thread/ERROR] [FileHandler] Couldn't locate icons for Default: C:\Program%20Files\Minecraft\minecraft\mods\journeymap-1.12.2-5.7.1.jar\assets\journeymap\icon\entity
-[16:16:36] [Client thread/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
-[16:16:36] [Client thread/ERROR] [FileHandler] Couldn't locate icons for flat: C:\Program%20Files\Minecraft\minecraft\mods\journeymap-1.12.2-5.7.1.jar\assets\journeymap\theme\flat
-[16:16:36] [Client thread/INFO] [ThemeLoader] Preloaded theme textures: 0
-[16:17:10] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[16:17:10] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
-[16:17:11] [Client thread/INFO] [WaypointStore] Loaded 11 waypoints from C:\Program Files\Minecraft\minecraft\journeymap\data\sp\Новый мир\waypoints
-[16:17:11] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Program Files\Minecraft\minecraft\journeymap\data\sp\Новый мир\DIM0. Memory: 12192MB total, 8705MB free 
-[16:17:11] [Client thread/INFO] [ChatLog] JourneyMap: Нажмите [J].
-[16:17:11] [JM-task-4/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
-[16:17:46] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Program Files\Minecraft\minecraft\journeymap\data\sp\Новый мир\DIM0
+[16:23:30] [Client thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.4
+[16:23:30] [Client thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[16:23:30] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg ?ms
+[16:23:42] [Client thread/ERROR] [FileHandler] Couldn't locate icons for Default: C:\Program%20Files\Minecraft\minecraft\mods\journeymap-1.12.2-5.7.1.jar\assets\journeymap\icon\entity
+[16:23:42] [Client thread/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
+[16:23:42] [Client thread/ERROR] [FileHandler] Couldn't locate icons for flat: C:\Program%20Files\Minecraft\minecraft\mods\journeymap-1.12.2-5.7.1.jar\assets\journeymap\theme\flat
+[16:23:42] [Client thread/INFO] [ThemeLoader] Preloaded theme textures: 0
+[16:25:30] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[16:25:30] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[16:25:30] [Client thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
+[16:25:31] [Client thread/INFO] [WaypointStore] Loaded 11 waypoints from C:\Program Files\Minecraft\minecraft\journeymap\data\sp\Новый мир\waypoints
+[16:25:31] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Program Files\Minecraft\minecraft\journeymap\data\sp\Новый мир\DIM0. Memory: 12416MB total, 8923MB free 
+[16:25:31] [Client thread/INFO] [ChatLog] JourneyMap: Нажмите [J].
+[16:26:13] [Client thread/INFO] [WaypointStore] Loaded 11 waypoints from C:\Program Files\Minecraft\minecraft\journeymap\data\sp\Новый мир\waypoints
+[16:26:18] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Program Files\Minecraft\minecraft\journeymap\data\sp\Новый мир\DIM0
+[16:26:19] [Client thread/INFO] [RegionImageCache] Deleted image directory C:\Program Files\Minecraft\minecraft\journeymap\data\sp\Новый мир\DIM0: true
+[16:26:19] [Client thread/INFO] [RegionImageCache] Done deleting directories
+[16:26:19] [Client thread/INFO] [WaypointStore] Loaded 11 waypoints from C:\Program Files\Minecraft\minecraft\journeymap\data\sp\Новый мир\waypoints
+[16:26:19] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Program Files\Minecraft\minecraft\journeymap\data\sp\Новый мир\DIM0. Memory: 12960MB total, 9166MB free 
+[16:26:20] [Client thread/INFO] [ChatLog] JourneyMap: Карта удалена
+[16:26:38] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Program Files\Minecraft\minecraft\journeymap\data\sp\Новый мир\DIM0
