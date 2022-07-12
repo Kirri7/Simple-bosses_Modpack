@@ -32,3 +32,5 @@ CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.7.1, ve
 [15:19:13] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Program Files\Minecraft\minecraft\journeymap\data\sp\Новый мир\waypoints
 [15:19:13] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Program Files\Minecraft\minecraft\journeymap\data\sp\Новый мир\DIM0. Memory: 12352MB total, 9026MB free 
 [15:19:13] [Client thread/INFO] [ChatLog] JourneyMap: Нажмите [J].
+[15:43:23] [Client thread/INFO] [StateTickHandler] Kirri_7 died at BlockPos{x=273, y=86, z=-659}. Deathpoints enabled: true. Deathpoint created: true
+[15:44:41] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Program Files\Minecraft\minecraft\journeymap\data\sp\Новый мир\DIM0
