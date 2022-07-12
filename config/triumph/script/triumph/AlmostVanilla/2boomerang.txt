@@ -1,0 +1,20 @@
+setIcon(<spartanweaponry:boomerang_wood>)
+
+setTitle("Fly, my wooden friend")
+
+setDescription("The boomerang will return, but the mobs don't")
+
+setCompletedIconColor(#d18334)
+setCompletedTitleColor(#d18334)
+setCompletedLineColor(210, 155, 100)
+
+addParent("triumph:AlmostVanilla/2clubwood")
+
+setShowToast(true)
+
+setRewardExperience(6)
+
+setPos(-616,121)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<spartanweaponry:boomerang_wood>)

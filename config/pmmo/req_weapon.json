@@ -1,0 +1,779 @@
+{
+	"appliedenergistics2:certus_quartz_axe":
+	{
+		"combat": 35
+	},
+	"appliedenergistics2:certus_quartz_pickaxe":
+	{
+		"combat": 30
+	},
+	"appliedenergistics2:certus_quartz_shovel":
+	{
+		"combat": 30
+	},
+	"appliedenergistics2:certus_quartz_sword":
+	{
+		"combat": 30
+	},
+	"appliedenergistics2:nether_quartz_axe":
+	{
+		"combat": 23
+	},
+	"appliedenergistics2:nether_quartz_pickaxe":
+	{
+		"combat": 17
+	},
+	"appliedenergistics2:nether_quartz_shovel":
+	{
+		"combat": 17
+	},
+	"appliedenergistics2:nether_quartz_sword":
+	{
+		"combat": 17
+	},
+	"aquaculture:neptunium_axe":
+	{
+		"combat": 75
+	},
+	"aquaculture:neptunium_fillet_knife":
+	{
+		"combat": 5
+	},
+	"aquaculture:neptunium_sword":
+	{
+		"combat": 70
+	},
+	"endreborn:end_stone_axe":
+	{
+		"combat": 20
+	},
+	"endreborn:end_stone_pickaxe":
+	{
+		"combat": 20
+	},
+	"endreborn:end_stone_shovel":
+	{
+		"combat": 20
+	},
+	"endreborn:end_stone_sword":
+	{
+		"combat": 20
+	},
+	"endreborn:endorium_axe":
+	{
+		"combat": 60
+	},
+	"endreborn:endorium_pickaxe":
+	{
+		"combat": 60
+	},
+	"endreborn:endorium_shovel":
+	{
+		"combat": 60
+	},
+	"endreborn:endorium_sword":
+	{
+		"combat": 60
+	},
+	"endreborn:wolframium_axe":
+	{
+		"combat": 45
+	},
+	"endreborn:wolframium_pickaxe":
+	{
+		"combat": 35
+	},
+	"endreborn:wolframium_shovel":
+	{
+		"combat": 35
+	},
+	"endreborn:wolframium_sword":
+	{
+		"combat": 35
+	},
+	"expanded_combat:diamond_bow":
+	{
+		"archery": 10
+	},
+	"expanded_combat:diamond_bow_half":
+	{
+		"archery": 10
+	},
+	"expanded_combat:gold_bow":
+	{
+		"archery": 20
+	},
+	"expanded_combat:gold_bow_half":
+	{
+		"archery": 20
+	},
+	"expanded_combat:iron_bow":
+	{
+		"archery": 5
+	},
+	"expanded_combat:iron_bow_half":
+	{
+		"archery": 1
+	},
+	"expanded_combat:netherite_bow":
+	{
+		"archery": 15
+	},
+	"extendednether:netherite_axe":
+	{
+		"combat": 65
+	},
+	"extendednether:netherite_pickaxe":
+	{
+		"combat": 60
+	},
+	"extendednether:netherite_shovel":
+	{
+		"combat": 60
+	},
+	"extendednether:netherite_sword":
+	{
+		"combat": 60
+	},
+	"extrabows:diamond_bow":
+	{
+		"archery": 15
+	},
+	"extrabows:electric_bow":
+	{
+		"archery": 15
+	},
+	"extrabows:emerald_bow":
+	{
+		"archery": 15
+	},
+	"extrabows:golden_bow":
+	{
+		"archery": 10
+	},
+	"extrabows:iron_bow":
+	{
+		"archery": 10
+	},
+	"extrabows:stone_bow":
+	{
+		"archery": 5
+	},
+	"funmod:bow_of_unendingfire":
+	{
+		"archery": 120
+	},
+	"funmod:divine_bow":
+	{
+		"archery": 125
+	},
+	"funmod:dragon_bow":
+	{
+		"archery": 150
+	},
+	"funmod:predator":
+	{
+		"archery": 125
+	},
+	"gemsnjewels:fast_bow":
+	{
+		"archery": 5
+	},
+	"harcorebattletowers:double_headed_evil_axe":
+	{
+		"combat": 85
+	},
+	"harcorebattletowers:evil_dagger":
+	{
+		"combat": 80
+	},
+	"iceandfire:copper_axe":
+	{
+		"combat": 15
+	},
+	"iceandfire:copper_pickaxe":
+	{
+		"combat": 15
+	},
+	"iceandfire:copper_shovel":
+	{
+		"combat": 15
+	},
+	"iceandfire:copper_sword":
+	{
+		"combat": 15
+	},
+	"iceandfire:dragonbone_axe":
+	{
+		"combat": 35
+	},
+	"iceandfire:dragonbone_bow":
+	{
+		"archery": 5
+	},
+	"iceandfire:dragonbone_pickaxe":
+	{
+		"combat": 35
+	},
+	"iceandfire:dragonbone_shovel":
+	{
+		"combat": 35
+	},
+	"iceandfire:dragonbone_sword":
+	{
+		"combat": 35
+	},
+	"iceandfire:dragonbone_sword_fire":
+	{
+		"combat": 50
+	},
+	"iceandfire:dragonbone_sword_ice":
+	{
+		"combat": 50
+	},
+	"iceandfire:dragonbone_sword_lightning":
+	{
+		"combat": 50
+	},
+	"iceandfire:dragonsteel_fire_axe":
+	{
+		"combat": 60
+	},
+	"iceandfire:dragonsteel_fire_sword":
+	{
+		"combat": 60
+	},
+	"iceandfire:dragonsteel_ice_axe":
+	{
+		"combat": 60
+	},
+	"iceandfire:dragonsteel_ice_sword":
+	{
+		"combat": 60
+	},
+	"iceandfire:dragonsteel_lightning_axe":
+	{
+		"combat": 60
+	},
+	"iceandfire:dragonsteel_lightning_sword":
+	{
+		"combat": 60
+	},
+	"iceandfire:dread_knight_sword":
+	{
+		"combat": 50
+	},
+	"iceandfire:dread_queen_sword":
+	{
+		"combat": 50
+	},
+	"iceandfire:dread_sword":
+	{
+		"combat": 20
+	},
+	"iceandfire:hippogryph_sword":
+	{
+		"combat": 25
+	},
+	"iceandfire:myrmex_desert_sword":
+	{
+		"combat": 20
+	},
+	"iceandfire:myrmex_desert_sword_venom":
+	{
+		"combat": 20
+	},
+	"iceandfire:myrmex_jungle_sword":
+	{
+		"combat": 20
+	},
+	"iceandfire:myrmex_jungle_sword_venom":
+	{
+		"combat": 20
+	},
+	"iceandfire:silver_axe":
+	{
+		"combat": 25
+	},
+	"iceandfire:silver_pickaxe":
+	{
+		"combat": 20
+	},
+	"iceandfire:silver_shovel":
+	{
+		"combat": 20
+	},
+	"iceandfire:silver_sword":
+	{
+		"combat": 20
+	},
+	"iceandfire:tide_trident":
+	{
+		"combat": 50
+	},
+	"iceandfire:troll_weapon_axe":
+	{
+		"combat": 30
+	},
+	"iceandfire:troll_weapon_column":
+	{
+		"combat": 30
+	},
+	"iceandfire:troll_weapon_column_forest":
+	{
+		"combat": 30
+	},
+	"iceandfire:troll_weapon_column_frost":
+	{
+		"combat": 30
+	},
+	"iceandfire:troll_weapon_hammer":
+	{
+		"combat": 30
+	},
+	"iceandfire:troll_weapon_trunk":
+	{
+		"combat": 30
+	},
+	"iceandfire:troll_weapon_trunk_frost":
+	{
+		"combat": 30
+	},
+	"minecolonies:chiefsword":
+	{
+		"combat": 35
+	},
+	"minecolonies:iron_scimitar":
+	{
+		"combat": 15
+	},
+	"minecolonies:pharaoscepter":
+	{
+		"archery": 75
+	},
+	"minecraft:bow":
+	{
+		"archery": 1,
+		"agility": 20
+	},
+	"minecraft:crossbow":
+	{
+		"archery": 10
+	},
+	"minecraft:diamond_axe":
+	{
+		"combat": 45
+	},
+	"minecraft:diamond_pickaxe":
+	{
+		"combat": 40
+	},
+	"minecraft:diamond_shovel":
+	{
+		"combat": 40
+	},
+	"minecraft:diamond_sword":
+	{
+		"combat": 40
+	},
+	"minecraft:golden_axe":
+	{
+		"combat": 35
+	},
+	"minecraft:golden_pickaxe":
+	{
+		"combat": 30
+	},
+	"minecraft:golden_shovel":
+	{
+		"combat": 30
+	},
+	"minecraft:golden_sword":
+	{
+		"combat": 30
+	},
+	"minecraft:iron_axe":
+	{
+		"combat": 25
+	},
+	"minecraft:iron_pickaxe":
+	{
+		"combat": 20
+	},
+	"minecraft:iron_shovel":
+	{
+		"combat": 20
+	},
+	"minecraft:iron_sword":
+	{
+		"combat": 20
+	},
+	"futuremc:netherite_axe":
+	{
+		"combat": 65
+	},
+	"futuremc:netherite_pickaxe":
+	{
+		"combat": 60
+	},
+	"futuremc:netherite_shovel":
+	{
+		"combat": 60
+	},
+	"futuremc:netherite_sword":
+	{
+		"combat": 60
+	},
+	"minecraft:stone_axe":
+	{
+		"combat": 15
+	},
+	"minecraft:stone_pickaxe":
+	{
+		"combat": 10
+	},
+	"minecraft:stone_shovel":
+	{
+		"combat": 10
+	},
+	"minecraft:stone_sword":
+	{
+		"combat": 10
+	},
+	"minecraft:wooden_axe":
+	{
+		"combat": 1
+	},
+	"minecraft:wooden_pickaxe":
+	{
+		"combat": 1
+	},
+	"minecraft:wooden_shovel":
+	{
+		"combat": 1
+	},
+	"minecraft:wooden_sword":
+	{
+		"combat": 1
+	},
+	"mvw:amethyst_bow":
+	{
+		"archery": 10
+	},
+	"mvw:amethyst_crossbow":
+	{
+		"archery": 15
+	},
+	"mvw:black_opal_bow":
+	{
+		"archery": 10
+	},
+	"mvw:black_opal_crossbow":
+	{
+		"archery": 15
+	},
+	"mvw:copper_bow":
+	{
+		"archery": 5
+	},
+	"mvw:copper_crossbow":
+	{
+		"archery": 13
+	},
+	"mvw:diamond_bow":
+	{
+		"archery": 10
+	},
+	"mvw:diamond_crossbow":
+	{
+		"archery": 15
+	},
+	"mvw:gold_bow":
+	{
+		"archery": 5
+	},
+	"mvw:gold_crossbow":
+	{
+		"archery": 12
+	},
+	"mvw:iron_bow":
+	{
+		"archery": 1
+	},
+	"mvw:iron_crossbow":
+	{
+		"archery": 11
+	},
+	"mvw:netherite_black_opal_bow":
+	{
+		"archery": 15
+	},
+	"mvw:netherite_black_opal_crossbow":
+	{
+		"archery": 15
+	},
+	"mvw:netherite_bow":
+	{
+		"archery": 15
+	},
+	"mvw:netherite_crossbow":
+	{
+		"archery": 15
+	},
+	"mvw:silver_bow":
+	{
+		"archery": 5
+	},
+	"mvw:silver_crossbow":
+	{
+		"archery": 13
+	},
+	"mvw:wooden_knife":
+	{
+		"combat": 1
+	},
+	"notreepunching:flint_knife":
+	{
+		"combat": 1
+	},
+	"silentgear:bow":
+	{
+		"archery": 5
+	},
+	"silentgear:crossbow":
+	{
+		"archery": 15
+	},
+	"spartanweaponry:heavy_crossbow_bronze":
+	{
+		"archery": 13
+	},
+	"spartanweaponry:heavy_crossbow_copper":
+	{
+		"archery": 13
+	},
+	"spartanweaponry:heavy_crossbow_diamond":
+	{
+		"archery": 15
+	},
+	"spartanweaponry:heavy_crossbow_electrum":
+	{
+		"archery": 13
+	},
+	"spartanweaponry:heavy_crossbow_gold":
+	{
+		"archery": 13
+	},
+	"spartanweaponry:heavy_crossbow_invar":
+	{
+		"archery": 13
+	},
+	"spartanweaponry:heavy_crossbow_iron":
+	{
+		"archery": 13
+	},
+	"spartanweaponry:heavy_crossbow_lead":
+	{
+		"archery": 13
+	},
+	"spartanweaponry:heavy_crossbow_leather":
+	{
+		"archery": 10
+	},
+	"spartanweaponry:heavy_crossbow_netherite":
+	{
+		"archery": 20
+	},
+	"spartanweaponry:heavy_crossbow_nickel":
+	{
+		"archery": 13
+	},
+	"spartanweaponry:heavy_crossbow_platinum":
+	{
+		"archery": 13
+	},
+	"spartanweaponry:heavy_crossbow_silver":
+	{
+		"archery": 13
+	},
+	"spartanweaponry:heavy_crossbow_steel":
+	{
+		"archery": 13
+	},
+	"spartanweaponry:heavy_crossbow_tin":
+	{
+		"archery": 13
+	},
+	"spartanweaponry:heavy_crossbow_wood":
+	{
+		"archery": 10
+	},
+	"spartanweaponry:longbow_bronze":
+	{
+		"archery": 8
+	},
+	"spartanweaponry:longbow_copper":
+	{
+		"archery": 8
+	},
+	"spartanweaponry:longbow_diamond":
+	{
+		"archery": 10
+	},
+	"spartanweaponry:longbow_electrum":
+	{
+		"archery": 8
+	},
+	"spartanweaponry:longbow_gold":
+	{
+		"archery": 8
+	},
+	"spartanweaponry:longbow_invar":
+	{
+		"archery": 8
+	},
+	"spartanweaponry:longbow_iron":
+	{
+		"archery": 8
+	},
+	"spartanweaponry:longbow_lead":
+	{
+		"archery": 8
+	},
+	"spartanweaponry:longbow_leather":
+	{
+		"archery": 7
+	},
+	"spartanweaponry:longbow_netherite":
+	{
+		"archery": 15
+	},
+	"spartanweaponry:longbow_nickel":
+	{
+		"archery": 8
+	},
+	"spartanweaponry:longbow_platinum":
+	{
+		"archery": 8
+	},
+	"spartanweaponry:longbow_silver":
+	{
+		"archery": 8
+	},
+	"spartanweaponry:longbow_steel":
+	{
+		"archery": 8
+	},
+	"spartanweaponry:longbow_tin":
+	{
+		"archery": 8
+	},
+	"spartanweaponry:longbow_wood":
+	{
+		"archery": 5
+	},
+	"spartanweaponry:crossbow_wood":
+	{
+		"archery": 8
+	},	
+	"spartanweaponry:club_wood":
+	{
+		"combat": 2
+	},
+	"spartanweaponry:caestus":
+	{
+		"combat": 2
+	},
+	"spartanweaponry:caestus_studded":
+	{
+		"combat": 5
+	},	
+	"spartanweaponry:throwing_axe_wood":
+	{
+		"combat": 7
+	},
+	"spartanweaponry:throwing_axe_gold":
+	{
+		"combat": 7
+	},	
+	"spartanweaponry:throwing_axe_stone":
+	{
+		"combat": 13
+	},
+	"spartanweaponry:throwing_axe_iron":
+	{
+		"combat": 17
+	},
+	"spartanweaponry:throwing_axe_diamond":
+	{
+		"combat": 33
+	},			
+	"spartanweaponry:longsword_wood":
+	{
+		"combat": 12
+	},
+	"spartanweaponry:longsword_gold":
+	{
+		"combat": 12
+	},	
+	"spartanweaponry:longsword_stone":
+	{
+		"combat": 22
+	},
+	"spartanweaponry:longsword_iron":
+	{
+		"combat": 32
+	},
+	"spartanweaponry:longsword_diamond":
+	{
+		"combat": 42
+	},			
+	"spartanweaponry:katana_wood":
+	{
+		"combat": 5
+	},
+	"spartanweaponry:katana_gold":
+	{
+		"combat": 5
+	},	
+	"spartanweaponry:katana_stone":
+	{
+		"combat": 15
+	},
+	"spartanweaponry:katana_iron":
+	{
+		"combat": 25
+	},
+	"spartanweaponry:katana_diamond":
+	{
+		"combat": 45
+	},				
+	"spartanweaponry:greatsword_wood":
+	{
+		"combat": 15
+	},
+	"spartanweaponry:greatsword_gold":
+	{
+		"combat": 15
+	},	
+	"spartanweaponry:greatsword_stone":
+	{
+		"combat": 25
+	},
+	"spartanweaponry:greatsword_iron":
+	{
+		"combat": 35
+	},
+	"spartanweaponry:greatsword_diamond":
+	{
+		"combat": 55
+	},															
+	"switchbow:switchbow":
+	{
+		"archery": 20
+	},
+	"switchbow:switchcrossbow":
+	{
+		"archery": 30
+	}
+}

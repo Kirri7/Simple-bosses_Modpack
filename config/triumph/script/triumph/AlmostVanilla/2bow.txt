@@ -1,0 +1,22 @@
+setIcon(<minecraft:bow>)
+
+setTitle("Am I a joke to you?")
+
+setDescription("Skeleton's love")
+
+setCompletedIconColor(#d18334)
+setCompletedTitleColor(#d18334)
+setCompletedLineColor(210, 155, 100)
+
+addParent("triumph:AlmostVanilla/2spiders")
+
+setShowToast(true)
+
+hideLines()
+
+setRewardExperience(5)
+
+setPos(-534,-76)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<minecraft:bow>)

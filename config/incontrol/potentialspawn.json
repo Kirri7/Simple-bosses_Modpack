@@ -1,0 +1,99 @@
+[
+  {
+    "structure": "Village",
+    "mobs": [
+      {
+    	"maxcount": "2,VillagerGolem",      	
+        "mob": "VillagerGolem",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+  {
+    "structure": "Village",
+    "mobs": [
+      {   	
+        "mob": "grimoireofgaia:trader",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },  
+  {
+    "mobs": [
+      {
+        "mob": "quark:wraith",
+        "weight": 2,
+        "groupcountmin": 2,
+        "groupcountmax": 3
+      }
+    ]
+  },
+  {
+    "mobs": [
+      {
+        "mob": "deadguyshallucinationnightmare:phanotm",
+        "weight": 10,
+        "groupcountmin": 1,
+        "groupcountmax": 4
+      }
+    ]
+  },
+  {
+    "mobs": [
+      {
+        "mob": "Giant",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "mobs": [
+      {
+        "mob": "grimoireofgaia:illager_inquisitor",
+        "block": ["minecraft:grass", "minecraft:snow"],
+        "weight": 40,
+        "dimension": 0,
+        "groupcountmin": 4,
+        "groupcountmax": 6
+      }
+    ]
+  },
+  {
+    "mobs": [
+      {
+        "mob": "minecraft:silverfish",
+        "weight": 11,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
+  {
+    "mobs": [
+      {
+        "mob": "minecraft:vex",
+        "weight": 4,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },  
+  {
+    "mobs": [
+      {
+        "mob": "netherex:ghastling",
+        "weight": 5,
+        "dimension": -1,        
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  }
+
+]

@@ -1,0 +1,23 @@
+setIcon(<minecraft:gunpowder>)
+
+setTitle("Obsidian human")
+
+setDescription("Get gunpowder from 30 creepers")
+
+setCompletedIconColor(#bbd4ed)
+setCompletedTitleColor(#bbd4ed)
+setCompletedLineColor(184, 200, 222)
+
+setFrameType("challenge")
+
+addParent("triumph:AlmostVanilla/3age")
+
+setShowToast(true)
+
+setRewardExperience(40)
+
+setPos(-820,87)
+
+criteria = addCriteria("killed_spider", "minecraft:player_killed_entity")
+criteria.setEntityType("minecraft:creeper")
+criteria.setCount(30)

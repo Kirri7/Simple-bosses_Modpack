@@ -1,0 +1,22 @@
+setIcon(<sereneseasons:greenhouse_glass>)
+
+setTitle("Farmer's dream")
+
+setDescription("Make a greenhouse glass")
+
+setCompletedIconColor(#bbd4ed)
+setCompletedTitleColor(#bbd4ed)
+setCompletedLineColor(184, 200, 222)
+
+setFrameType("goal")
+
+addParent("triumph:AlmostVanilla/3platforms")
+
+setShowToast(true)
+
+setRewardExperience(5)
+
+setPos(-753,120)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<sereneseasons:greenhouse_glass>)

@@ -1,0 +1,18 @@
+{
+  "iron_ore_touch": {
+    "type": "touching",
+    "type": "touching",
+    "ore": "ore:oreIron",
+    "stone": "minecraft:stone",
+    "rarity": 5,
+    "count": 2,
+    "min_y": 10,
+    "max_y": 150,
+    "block": "minecraft:air",
+    "min": 3,
+    "max": 4
+  }
+
+
+
+}

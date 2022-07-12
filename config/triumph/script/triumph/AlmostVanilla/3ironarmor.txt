@@ -1,0 +1,20 @@
+setIcon(<minecraft:iron_chestplate>)
+
+setTitle("SpongeBob ChainPants213")
+
+setDescription("Figure out how to make a chain armor213")
+
+setCompletedIconColor(#bbd4ed)
+setCompletedTitleColor(#bbd4ed)
+setCompletedLineColor(184, 200, 222)
+
+addParent("triumph:AlmostVanilla/3anvil")
+
+setShowToast(true)
+
+setRewardExperience(10)
+
+setPos(-485,20)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<minecraft:iron_chestplate>)

@@ -1,0 +1,20 @@
+setIcon(<ancientwarfareautomation:stirling_generator>)
+
+setTitle("The industrial revolution")
+
+setDescription("Let the machines build for you")
+
+setFrameType("goal")
+
+addParent("triumph:AlmostVanilla/4breakfast")
+
+setShowToast(true)
+
+setRewardExperience(20)
+
+setPos(-750,4)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<ancientwarfareautomation:stirling_generator>)
+
+addRewardFunction("almostvanilla:adventures")

@@ -1,0 +1,22 @@
+{
+	"minecraft:exampleanimal":
+	{
+		"taming": 10
+	},
+	"minecraft:horse":
+	{
+		"taming": 30
+	},
+	"minecraft:ocelot":
+	{
+		"taming": 20
+	},
+	"minecraft:parrot":
+	{
+		"taming": 20
+	},
+	"minecraft:wolf":
+	{
+		"taming": 10
+	}
+}

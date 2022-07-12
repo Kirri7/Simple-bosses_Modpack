@@ -1,0 +1,20 @@
+setIcon(<treasure2:thiefs_lock_pick>)
+
+setTitle("Treasure hunter")
+
+setDescription("Start using treasure tool")
+
+setCompletedIconColor(#bbd4ed)
+setCompletedTitleColor(#bbd4ed)
+setCompletedLineColor(184, 200, 222)
+
+addParent("triumph:AlmostVanilla/3iron")
+
+setShowToast(true)
+
+setRewardExperience(5)
+
+setPos(-820,53)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<treasure2:treasure_tool>)

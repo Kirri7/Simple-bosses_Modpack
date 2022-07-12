@@ -1,0 +1,18 @@
+setIcon(<quark:ender_watcher>)
+
+setTitle("Smart house")
+
+setDescription("Craft another useful stuff for your base")
+
+addParent("triumph:AlmostVanilla/4age")
+
+setShowToast(true)
+
+setRewardExperience(20)
+
+setPos(-1034,4)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<quark:ender_watcher>)
+
+addRewardFunction("almostvanilla:adventures")

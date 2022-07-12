@@ -1,0 +1,48 @@
+type = menu
+
+customization-meta {
+  identifier = options_menu
+  renderorder = foreground
+}
+
+customization {
+  name = options
+  action = animatebackground
+}
+
+customization {
+  orientation = top-left
+  delayappearanceseconds = 1.25
+  buttonaction = opengui
+  label = Options
+  fadein = true
+  fadeinspeed = 2.0
+  x = 149
+  width = 100
+  actionid = dc60bb10-de2d-4a0f-bf4c-9571a088c7ec1626354875472
+  action = addbutton
+  y = 260
+  delayappearance = true
+  value = net.minecraft.client.gui.GuiOptions
+  delayappearanceeverytime = false
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  delayappearanceseconds = 1.25
+  buttonaction = opengui
+  label = Mods
+  fadein = true
+  fadeinspeed = 2.0
+  x = 149
+  width = 100
+  actionid = 828d9fd9-9ab1-4026-8d30-476c2aa8886d1626354875473
+  action = addbutton
+  y = 234
+  delayappearance = true
+  value = net.minecraftforge.fml.client.GuiModList
+  delayappearanceeverytime = false
+  height = 20
+}
+

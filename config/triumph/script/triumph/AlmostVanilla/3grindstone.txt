@@ -1,0 +1,20 @@
+setIcon(<futuremc:grindstone>)
+
+setTitle("Disenchanter")
+
+setDescription("Do you still need xp? - try using a Grindstone")
+
+setCompletedIconColor(#bbd4ed)
+setCompletedTitleColor(#bbd4ed)
+setCompletedLineColor(184, 200, 222)
+
+addParent("triumph:AlmostVanilla/3enchtable")
+
+setShowToast(true)
+
+setRewardExperience(4)
+
+setPos(-619,53)
+
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+criteria.setBlock(<futuremc:grindstone>)

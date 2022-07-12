@@ -1,0 +1,20 @@
+setIcon(<futuremc:smoker>)
+
+setTitle("Smoker")
+
+setDescription("For delicious dinners (and don't show it to pigs)")
+
+setCompletedIconColor(#d18334)
+setCompletedTitleColor(#d18334)
+setCompletedLineColor(210, 155, 100)
+
+addParent("triumph:AlmostVanilla/2fire")
+
+setShowToast(true)
+
+setRewardExperience(4)
+
+setPos(-497,8)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<futuremc:smoker>)

@@ -1,0 +1,14 @@
+
+setIcon("minecraft:stone")
+setTranslatedTitle("atitle")
+setTranslatedDescription("an")
+
+setFrameType("challenge")
+
+addParent("triumph:AlmostVanilla/root2")
+
+setRewardExperience(50)
+
+criteria = addCriteria("falling", "triumph:player_fall")
+
+criteria.setMovement(1)

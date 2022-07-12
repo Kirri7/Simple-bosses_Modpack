@@ -1,0 +1,20 @@
+setIcon(<mod_lavacow:swinemask>)
+
+setTitle("Swine hunter")
+
+setDescription("Get nice looking, projective decriasing troll armor")
+
+addParent("triumph:AlmostVanilla/4age")
+
+setShowToast(true)
+
+setRewardExperience(20)
+
+setPos(-978,-97)
+
+hideLines()
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<mod_lavacow:swinemask>)
+
+addRewardFunction("almostvanilla:adventures")

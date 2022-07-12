@@ -1,0 +1,24 @@
+{
+	"minecraft:spawner":
+	{
+		"combat": 5
+	},
+	"minecraft:stone":
+	{
+		"excavation": 2,
+		"woodcutting": 5
+	},
+	"minecraft:diamond_ore":
+	{
+		"mining": 30
+	},
+	"minecraft:obsidian":
+	{
+		"mining": 20
+	},	
+	"minecraft:iron_ore":
+	{
+		"mining": 10
+	}		
+
+}

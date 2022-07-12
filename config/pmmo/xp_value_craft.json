@@ -1,0 +1,981 @@
+{
+	"appliedenergistics2:16k_cell_component":
+	{
+		"crafting": 40,
+		"smithing": 25
+	},
+	"appliedenergistics2:16k_crafting_storage":
+	{
+		"crafting": 40,
+		"smithing": 20
+	},
+	"appliedenergistics2:16k_fluid_cell_component":
+	{
+		"crafting": 35,
+		"smithing": 15
+	},
+	"appliedenergistics2:1k_cell_component":
+	{
+		"crafting": 20,
+		"smithing": 10
+	},
+	"appliedenergistics2:1k_crafting_storage":
+	{
+		"crafting": 20,
+		"smithing": 10
+	},
+	"appliedenergistics2:1k_fluid_cell_component":
+	{
+		"crafting": 15,
+		"smithing": 5
+	},
+	"appliedenergistics2:4k_cell_component":
+	{
+		"crafting": 30,
+		"smithing": 15
+	},
+	"appliedenergistics2:4k_crafting_storage":
+	{
+		"crafting": 30,
+		"smithing": 15
+	},
+	"appliedenergistics2:4k_fluid_cell_component":
+	{
+		"crafting": 25,
+		"smithing": 10
+	},
+	"appliedenergistics2:64k_cell_component":
+	{
+		"crafting": 50,
+		"smithing": 35
+	},
+	"appliedenergistics2:64k_crafting_storage":
+	{
+		"crafting": 50,
+		"smithing": 25
+	},
+	"appliedenergistics2:64k_fluid_cell_component":
+	{
+		"crafting": 45,
+		"smithing": 25
+	},
+	"appliedenergistics2:advanced_card":
+	{
+		"crafting": 45
+	},
+	"appliedenergistics2:annihilation_plane":
+	{
+		"crafting": 50,
+		"smithing": 42
+	},
+	"appliedenergistics2:basic_card":
+	{
+		"crafting": 30
+	},
+	"appliedenergistics2:certus_quartz_axe":
+	{
+		"crafting": 90,
+		"smithing": 18
+	},
+	"appliedenergistics2:certus_quartz_hoe":
+	{
+		"crafting": 60,
+		"smithing": 12
+	},
+	"appliedenergistics2:certus_quartz_pickaxe":
+	{
+		"crafting": 90,
+		"smithing": 18
+	},
+	"appliedenergistics2:certus_quartz_shovel":
+	{
+		"crafting": 30,
+		"smithing": 6
+	},
+	"appliedenergistics2:certus_quartz_sword":
+	{
+		"crafting": 60,
+		"smithing": 12
+	},
+	"appliedenergistics2:charger":
+	{
+		"crafting": 60,
+		"smithing": 25
+	},
+	"appliedenergistics2:chest":
+	{
+		"crafting": 60,
+		"smithing": 20
+	},
+	"appliedenergistics2:condenser":
+	{
+		"crafting": 25
+	},
+	"appliedenergistics2:controller":
+	{
+		"crafting": 120,
+		"smithing": 30
+	},
+	"appliedenergistics2:crafting_accelerator":
+	{
+		"crafting": 30,
+		"smithing": 25
+	},
+	"appliedenergistics2:crafting_terminal":
+	{
+		"crafting": 45,
+		"smithing": 15
+	},
+	"appliedenergistics2:drive":
+	{
+		"crafting": 90,
+		"smithing": 35
+	},
+	"appliedenergistics2:export_bus":
+	{
+		"crafting": 35
+	},
+	"appliedenergistics2:fluid_annihilation_plane":
+	{
+		"crafting": 40,
+		"smithing": 35
+	},
+	"appliedenergistics2:fluid_export_bus":
+	{
+		"crafting": 30
+	},
+	"appliedenergistics2:fluid_formation_plane":
+	{
+		"crafting": 40,
+		"smithing": 32
+	},
+	"appliedenergistics2:fluid_import_bus":
+	{
+		"crafting": 30
+	},
+	"appliedenergistics2:fluid_interface":
+	{
+		"crafting": 40,
+		"smithing": 30
+	},
+	"appliedenergistics2:fluid_storage_bus":
+	{
+		"crafting": 20
+	},
+	"appliedenergistics2:fluid_terminal":
+	{
+		"crafting": 45,
+		"smithing": 15
+	},
+	"appliedenergistics2:formation_plane":
+	{
+		"crafting": 45,
+		"smithing": 40
+	},
+	"appliedenergistics2:import_bus":
+	{
+		"crafting": 35
+	},
+	"appliedenergistics2:inscriber":
+	{
+		"crafting": 140,
+		"smithing": 50
+	},
+	"appliedenergistics2:interface":
+	{
+		"crafting": 50,
+		"smithing": 40
+	},
+	"appliedenergistics2:interface_terminal":
+	{
+		"crafting": 45,
+		"smithing": 15
+	},
+	"appliedenergistics2:io_port":
+	{
+		"crafting": 60,
+		"smithing": 20
+	},
+	"appliedenergistics2:molecular_assembler":
+	{
+		"crafting": 40,
+		"smithing": 15
+	},
+	"appliedenergistics2:nether_quartz_axe":
+	{
+		"crafting": 30,
+		"smithing": 6
+	},
+	"appliedenergistics2:nether_quartz_hoe":
+	{
+		"crafting": 20,
+		"smithing": 4
+	},
+	"appliedenergistics2:nether_quartz_pickaxe":
+	{
+		"crafting": 30,
+		"smithing": 6
+	},
+	"appliedenergistics2:nether_quartz_shovel":
+	{
+		"crafting": 10,
+		"smithing": 2
+	},
+	"appliedenergistics2:nether_quartz_sword":
+	{
+		"crafting": 20,
+		"smithing": 4
+	},
+	"appliedenergistics2:pattern_terminal":
+	{
+		"crafting": 45,
+		"smithing": 15
+	},
+	"appliedenergistics2:quartz_growth_accelerator":
+	{
+		"crafting": 50,
+		"smithing": 30
+	},
+	"appliedenergistics2:security_station":
+	{
+		"crafting": 250,
+		"smithing": 40
+	},
+	"appliedenergistics2:storage_bus":
+	{
+		"crafting": 25
+	},
+	"appliedenergistics2:terminal":
+	{
+		"crafting": 35,
+		"smithing": 15
+	},
+	"appliedenergistics2:vibration_chamber":
+	{
+		"crafting": 10,
+		"smithing": 10
+	},
+	"appliedenergistics2:wireless_access_point":
+	{
+		"crafting": 25
+	},
+	"appliedenergistics2:wireless_booster":
+	{
+		"crafting": 35,
+		"smithing": 25
+	},
+	"appliedenergistics2:wireless_receiver":
+	{
+		"crafting": 25
+	},
+	"appliedenergistics2:wireless_terminal":
+	{
+		"crafting": 250,
+		"smithing": 80
+	},
+	"aquaculture:bobber":
+	{
+		"fishing": 20
+	},
+	"aquaculture:diamond_fillet_knife":
+	{
+		"crafting": 20
+	},
+	"aquaculture:diamond_hook":
+	{
+		"fishing": 10
+	},
+	"aquaculture:double_hook":
+	{
+		"fishing": 15
+	},
+	"aquaculture:fishing_line":
+	{
+		"fishing": 10
+	},
+	"aquaculture:gold_fillet_knife":
+	{
+		"crafting": 15,
+		"smithing": 10
+	},
+	"aquaculture:gold_hook":
+	{
+		"fishing": 5
+	},
+	"aquaculture:heavy_hook":
+	{
+		"fishing": 15
+	},
+	"aquaculture:iron_fillet_knife":
+	{
+		"crafting": 10,
+		"smithing": 10
+	},
+	"aquaculture:iron_hook":
+	{
+		"fishing": 5
+	},
+	"aquaculture:light_hook":
+	{
+		"fishing": 15
+	},
+	"aquaculture:neptunium_axe":
+	{
+		"crafting": 600,
+		"smithing": 120
+	},
+	"aquaculture:neptunium_boots":
+	{
+		"crafting": 600,
+		"smithing": 160
+	},
+	"aquaculture:neptunium_chestplate":
+	{
+		"crafting": 1400,
+		"smithing": 320
+	},
+	"aquaculture:neptunium_fillet_knife":
+	{
+		"crafting": 30,
+		"smithing": 10
+	},
+	"aquaculture:neptunium_helmet":
+	{
+		"crafting": 800,
+		"smithing": 200
+	},
+	"aquaculture:neptunium_hoe":
+	{
+		"crafting": 400,
+		"smithing": 80
+	},
+	"aquaculture:neptunium_leggings":
+	{
+		"crafting": 1200,
+		"smithing": 280
+	},
+	"aquaculture:neptunium_pickaxe":
+	{
+		"crafting": 600,
+		"smithing": 120
+	},
+	"aquaculture:neptunium_shovel":
+	{
+		"crafting": 200,
+		"smithing": 40
+	},
+	"aquaculture:neptunium_sword":
+	{
+		"crafting": 500,
+		"smithing": 90
+	},
+	"aquaculture:nether_star_hook":
+	{
+		"fishing": 20
+	},
+	"aquaculture:note_hook":
+	{
+		"fishing": 15
+	},
+	"aquaculture:redstone_hook":
+	{
+		"fishing": 15
+	},
+	"aquaculture:stone_fillet_knife":
+	{
+		"crafting": 5
+	},
+	"aquaculture:sushi":
+	{
+		"cooking": 15
+	},
+	"aquaculture:turtle_soup":
+	{
+		"cooking": 35
+	},
+	"aquaculture:wooden_fillet_knife":
+	{
+	"enderstorage:ender_chest":
+	{
+		"smithing": 80,
+		"magic": 10
+	},
+	"enderstorage:ender_pouch":
+	{
+		"crafting": 90,
+		"magic": 15
+	},
+	"enderstorage:ender_tank":
+	{
+		"smithing": 40,
+		"magic": 5
+	},
+	"endreborn:end_stone_axe":
+	{
+		"crafting": 15,
+		"smithing": 3
+	},
+	"endreborn:end_stone_hoe":
+	{
+		"crafting": 10,
+		"smithing": 2
+	},
+	"endreborn:end_stone_pickaxe":
+	{
+		"crafting": 15,
+		"smithing": 3
+	},
+	"endreborn:end_stone_shovel":
+	{
+		"crafting": 5,
+		"smithing": 1
+	},
+	"endreborn:end_stone_sword":
+	{
+		"crafting": 10,
+		"smithing": 2
+	},
+	"endreborn:ender_boots":
+	{
+		"crafting": 100,
+		"smithing": 20
+	},
+	"endreborn:endorium_axe":
+	{
+		"crafting": 30,
+		"smithing": 6
+	},
+	"endreborn:endorium_block":
+	{
+		"crafting": 0
+	},
+	"endreborn:endorium_hoe":
+	{
+		"crafting": 20,
+		"smithing": 4
+	},
+	"endreborn:endorium_ingot":
+	{
+		"crafting": 0
+	},
+	"endreborn:endorium_nugget":
+	{
+		"crafting": 0
+	},
+	"endreborn:endorium_pickaxe":
+	{
+		"crafting": 30,
+		"smithing": 6
+	},
+	"endreborn:endorium_shovel":
+	{
+		"crafting": 10,
+		"smithing": 2
+	},
+	"endreborn:endorium_sword":
+	{
+		"crafting": 20,
+		"smithing": 4
+	},
+	"endreborn:wolframium_axe":
+	{
+		"crafting": 150,
+		"smithing": 30
+	},
+	"endreborn:wolframium_block":
+	{
+		"crafting": 0
+	},
+	"endreborn:wolframium_boots":
+	{
+		"crafting": 80,
+		"smithing": 16
+	},
+	"endreborn:wolframium_chestplate":
+	{
+		"crafting": 160,
+		"smithing": 32
+	},
+	"endreborn:wolframium_helmet":
+	{
+		"crafting": 100,
+		"smithing": 20
+	},
+	"endreborn:wolframium_hoe":
+	{
+		"crafting": 100,
+		"smithing": 20
+	},
+	"endreborn:wolframium_ingot":
+	{
+		"crafting": 0
+	},
+	"endreborn:wolframium_leggings":
+	{
+		"crafting": 140,
+		"smithing": 28
+	},
+	"endreborn:wolframium_nugget":
+	{
+		"crafting": 0
+	},
+	"endreborn:wolframium_pickaxe":
+	{
+		"crafting": 150,
+		"smithing": 30
+	},
+	"endreborn:wolframium_shovel":
+	{
+		"crafting": 50,
+		"smithing": 10
+	},
+	"endreborn:wolframium_sword":
+	{
+		"crafting": 100,
+		"smithing": 20
+	},
+	"minecraft:anvil":
+	{
+		"crafting": 310,
+		"smithing": 62
+	},
+	"minecraft:beacon":
+	{
+		"crafting": 1000
+	},
+	"minecraft:beetroot_soup":
+	{
+		"cooking": 22.5
+	},
+	"minecraft:blast_furnace":
+	{
+		"crafting": 61
+	},
+	"minecraft:bone":
+	{
+		"crafting": 0
+	},
+	"minecraft:bone_block":
+	{
+		"crafting": 0
+	},
+	"minecraft:bread":
+	{
+		"cooking": 3.5
+	},
+	"minecraft:bucket":
+	{
+		"crafting": 30
+	},
+	"minecraft:cake":
+	{
+		"cooking": 45
+	},
+	"minecraft:cauldron":
+	{
+		"crafting": 70
+	},
+	"minecraft:clock":
+	{
+		"crafting": 125
+	},
+	"minecraft:coal":
+	{
+		"crafting": 0
+	},
+	"minecraft:coal_block":
+	{
+		"crafting": 0
+	},
+	"minecraft:compass":
+	{
+		"crafting": 45
+	},
+	"minecraft:cookie":
+	{
+		"cooking": 0.75
+	},
+	"minecraft:crossbow":
+	{
+		"crafting": 20,
+		"smithing": 10
+	},
+	"minecraft:diamond":
+	{
+		"crafting": 0
+	},
+	"minecraft:diamond_axe":
+	{
+		"crafting": 180,
+		"smithing": 36
+	},
+	"minecraft:diamond_block":
+	{
+		"crafting": 0
+	},
+	"minecraft:diamond_boots":
+	{
+		"crafting": 240,
+		"smithing": 48
+	},
+	"minecraft:diamond_chestplate":
+	{
+		"crafting": 480,
+		"smithing": 96
+	},
+	"minecraft:diamond_helmet":
+	{
+		"crafting": 300,
+		"smithing": 60
+	},
+	"minecraft:diamond_hoe":
+	{
+		"crafting": 120,
+		"smithing": 24
+	},
+	"minecraft:diamond_leggings":
+	{
+		"crafting": 420,
+		"smithing": 84
+	},
+	"minecraft:diamond_pickaxe":
+	{
+		"crafting": 180,
+		"smithing": 36
+	},
+	"minecraft:diamond_shovel":
+	{
+		"crafting": 60,
+		"smithing": 12
+	},
+	"minecraft:diamond_sword":
+	{
+		"crafting": 120,
+		"smithing": 24
+	},
+	"minecraft:emerald":
+	{
+		"crafting": 0
+	},
+	"minecraft:emerald_block":
+	{
+		"crafting": 0
+	},
+	"minecraft:flint_and_steel":
+	{
+		"crafting": 12
+	},
+	"minecraft:gold_block":
+	{
+		"crafting": 0
+	},
+	"minecraft:gold_ingot":
+	{
+		"crafting": 0
+	},
+	"minecraft:gold_nugget":
+	{
+		"crafting": 0
+	},
+	"minecraft:golden_axe":
+	{
+		"crafting": 90,
+		"smithing": 18
+	},
+	"minecraft:golden_boots":
+	{
+		"crafting": 120,
+		"smithing": 24
+	},
+	"minecraft:golden_chestplate":
+	{
+		"crafting": 240,
+		"smithing": 48
+	},
+	"minecraft:golden_helmet":
+	{
+		"crafting": 150,
+		"smithing": 30
+	},
+	"minecraft:golden_hoe":
+	{
+		"crafting": 60,
+		"smithing": 12
+	},
+	"minecraft:golden_leggings":
+	{
+		"crafting": 210,
+		"smithing": 42
+	},
+	"minecraft:golden_pickaxe":
+	{
+		"crafting": 90,
+		"smithing": 18
+	},
+	"minecraft:golden_shovel":
+	{
+		"crafting": 30,
+		"smithing": 6
+	},
+	"minecraft:golden_sword":
+	{
+		"crafting": 60,
+		"smithing": 12
+	},
+	"minecraft:hay_block":
+	{
+		"crafting": 0
+	},
+	"minecraft:heavy_weighted_pressure_plate":
+	{
+		"crafting": 20
+	},
+	"minecraft:hopper":
+	{
+		"crafting": 58
+	},
+	"minecraft:iron_axe":
+	{
+		"crafting": 30,
+		"smithing": 6
+	},
+	"minecraft:iron_block":
+	{
+		"crafting": 0
+	},
+	"minecraft:iron_boots":
+	{
+		"crafting": 40,
+		"smithing": 8
+	},
+	"minecraft:iron_chestplate":
+	{
+		"crafting": 80,
+		"smithing": 16
+	},
+	"minecraft:iron_door":
+	{
+		"crafting": 20
+	},
+	"minecraft:iron_helmet":
+	{
+		"crafting": 50,
+		"smithing": 10
+	},
+	"minecraft:iron_hoe":
+	{
+		"crafting": 20,
+		"smithing": 4
+	},
+	"minecraft:iron_ingot":
+	{
+		"crafting": 0
+	},
+	"minecraft:iron_leggings":
+	{
+		"crafting": 70,
+		"smithing": 14
+	},
+	"minecraft:iron_nugget":
+	{
+		"crafting": 0
+	},
+	"minecraft:iron_pickaxe":
+	{
+		"crafting": 30,
+		"smithing": 6
+	},
+	"minecraft:iron_shovel":
+	{
+		"crafting": 10,
+		"smithing": 2
+	},
+	"minecraft:iron_sword":
+	{
+		"crafting": 20,
+		"smithing": 4
+	},
+	"minecraft:iron_trapdoor":
+	{
+		"crafting": 40
+	},
+	"minecraft:lapis":
+	{
+		"crafting": 0
+	},
+	"minecraft:lapis_block":
+	{
+		"crafting": 0
+	},
+	"minecraft:leather_boots":
+	{
+		"crafting": 60,
+		"smithing": 12
+	},
+	"minecraft:leather_chestplate":
+	{
+		"crafting": 120,
+		"smithing": 24
+	},
+	"minecraft:leather_helmet":
+	{
+		"crafting": 75,
+		"smithing": 15
+	},
+	"minecraft:leather_leggings":
+	{
+		"crafting": 105,
+		"smithing": 21
+	},
+	"minecraft:light_weighted_pressure_plate":
+	{
+		"crafting": 60
+	},
+	"minecraft:minecart":
+	{
+		"crafting": 50
+	},
+	"minecraft:mushroom_stew":
+	{
+		"cooking": 15
+	},
+	"minecraft:netherite_axe":
+	{
+		"crafting": 600,
+		"smithing": 120
+	},
+	"minecraft:netherite_boots":
+	{
+		"crafting": 800,
+		"smithing": 160
+	},
+	"minecraft:netherite_chestplate":
+	{
+		"crafting": 1600,
+		"smithing": 320
+	},
+	"minecraft:netherite_helmet":
+	{
+		"crafting": 1000,
+		"smithing": 200
+	},
+	"minecraft:netherite_hoe":
+	{
+		"crafting": 400,
+		"smithing": 80
+	},
+	"minecraft:netherite_leggings":
+	{
+		"crafting": 1400,
+		"smithing": 280
+	},
+	"minecraft:netherite_pickaxe":
+	{
+		"crafting": 600,
+		"smithing": 120
+	},
+	"minecraft:netherite_shovel":
+	{
+		"crafting": 200,
+		"smithing": 40
+	},
+	"minecraft:netherite_sword":
+	{
+		"crafting": 400,
+		"smithing": 80
+	},
+	"minecraft:pumpkin_pie":
+	{
+		"cooking": 27.5
+	},
+	"minecraft:rabbit_stew":
+	{
+		"cooking": 35
+	},
+	"minecraft:redstone":
+	{
+		"crafting": 0
+	},
+	"minecraft:redstone_block":
+	{
+		"crafting": 0
+	},
+	"minecraft:shears":
+	{
+		"crafting": 20
+	},
+	"minecraft:stone_axe":
+	{
+		"crafting": 15,
+		"smithing": 3
+	},
+	"minecraft:stone_hoe":
+	{
+		"crafting": 10,
+		"smithing": 2
+	},
+	"minecraft:stone_pickaxe":
+	{
+		"crafting": 15,
+		"smithing": 3
+	},
+	"minecraft:stone_shovel":
+	{
+		"crafting": 5,
+		"smithing": 1
+	},
+	"minecraft:stone_sword":
+	{
+		"crafting": 10,
+		"smithing": 2
+	},
+	"minecraft:turtle_helmet":
+	{
+		"crafting": 100,
+		"smithing": 20
+	},
+	"minecraft:wheat":
+	{
+		"crafting": 0
+	},
+	"minecraft:wooden_axe":
+	{
+		"crafting": 9
+	},
+	"minecraft:wooden_hoe":
+	{
+		"crafting": 6
+	},
+	"minecraft:wooden_pickaxe":
+	{
+		"crafting": 9
+	},
+	"minecraft:wooden_shovel":
+	{
+		"crafting": 3
+	},
+	"minecraft:wooden_sword":
+	{
+		"crafting": 6
+	},
+	"scalinghealth:bandages":
+	{
+		"crafting": 4
+	},
+	"scalinghealth:heart_crystal":
+	{
+		"crafting": 20,
+		"magic": 30,
+		"endurance": 15
+	},
+	"scalinghealth:medkit":
+	{
+		"crafting": 18
+	},
+	"scalinghealth:power_crystal":
+	{
+		"crafting": 20,
+		"magic": 30,
+		"combat": 15
+	}
+}

@@ -1,0 +1,27 @@
+setIcon(<thesummoner:summoner_orb>)
+
+setTitle("Ironic situation")
+
+setDescription("Capture summoner into his orb")
+
+setFrameType("challenge")
+
+addParent("triumph:AlmostVanilla/4age")
+
+setShowToast(true)
+
+setRewardExperience(20)
+
+setPos(-918,53)
+
+hideLines()
+
+criteria = addCriteria("hasItem1", "minecraft:inventory_changed")
+criteria.addItem(<thesummoner:summoner_orb, nbt:{RegistryNamePath: "summoner"}>)
+
+criteria = addCriteria("hasItem2", "minecraft:inventory_changed")
+criteria.addItem(<thesummoner:enhanced_summoner_orb, nbt:{RegistryNamePath: "summoner"}>)
+
+setRequirements("any")
+
+addRewardFunction("almostvanilla:adventures")

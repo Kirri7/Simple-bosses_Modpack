@@ -1,0 +1,20 @@
+setIcon(<harvestcraft:queenbeeitem>)
+
+setTitle("Beees")
+
+setDescription("Build a house for beeees!")
+
+setCompletedIconColor(#d18334)
+setCompletedTitleColor(#d18334)
+setCompletedLineColor(210, 155, 100)
+
+addParent("triumph:AlmostVanilla/2trap")
+
+setShowToast(true)
+
+setRewardExperience(4)
+
+setPos(-436,-21)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<harvestcraft:apiary, meta:0, count:1>)

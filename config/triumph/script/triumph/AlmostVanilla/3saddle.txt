@@ -1,0 +1,20 @@
+setIcon(<minecraft:saddle>)
+
+setTitle("New friends")
+
+setDescription("Love them the way you want them to love you!")
+
+setCompletedIconColor(#bbd4ed)
+setCompletedTitleColor(#bbd4ed)
+setCompletedLineColor(184, 200, 222)
+
+addParent("triumph:AlmostVanilla/3age")
+
+setShowToast(true)
+
+setRewardExperience(5)
+
+setPos(-820,-64)
+
+criteria = addCriteria("hasSaddle", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:saddle>)

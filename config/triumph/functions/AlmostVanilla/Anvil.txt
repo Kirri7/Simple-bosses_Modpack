@@ -1,0 +1,1 @@
+gamestage silentadd @p Anvil_is_ready_to_serve

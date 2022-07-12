@@ -1,0 +1,20 @@
+setIcon(<spartanweaponry:longsword_wood>)
+
+setTitle("The star of the sword festival")
+
+setDescription("tip: It's a bad idea to take longsword to the narrow caves")
+
+setCompletedIconColor(#d18334)
+setCompletedTitleColor(#d18334)
+setCompletedLineColor(210, 155, 100)
+
+addParent("triumph:AlmostVanilla/2saber")
+
+setShowToast(true)
+
+setRewardExperience(3)
+
+setPos(-497,60)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<spartanweaponry:longsword_wood>)

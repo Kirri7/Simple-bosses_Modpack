@@ -1,0 +1,174 @@
+[
+  {
+    "biome": "biomesoplenty:lavender_fields",
+    "onjoin": true,
+    "hostile": true,
+    "result": "deny"
+  },
+  {
+    "passive": true,
+    "dimension": 0,
+    "winter": true,
+    "result": "deny"
+  },  
+  {
+    "mob": "VillagerGolem",
+    "result": "allow",
+    "maxcount": 2
+  },
+  {
+    "mob": "VillagerGolem",
+    "result": "deny"  
+  },
+  {
+    "mob": "grimoireofgaia:trader",
+    "result": "allow",
+    "maxcount": 1
+  },
+  {
+    "mob": "Vex",
+    "mintime": 11000,
+    "maxtime": 13000,    
+    "result": "allow",
+    "maxcount": 12
+  },
+  {
+    "mob": "Vex",
+    "result": "deny"  
+  },  
+  {
+    "mob": "grimoireofgaia:trader",
+    "result": "deny"  
+  },  
+  {
+    "mob": "quark:wraith",
+    "biome": "Creeping Nether",
+    "result": "allow",
+    "maxcount": 8
+  },
+  {
+    "mob": "quark:wraith",
+    "result": "deny"  
+  },
+  {
+    "mob": "deadguyshallucinationnightmare:phanotm",
+    "weather": "thunder",
+    "result": "default",
+    "maxcount": 30,
+    "nbt": {
+      "Attributes": [
+        {
+          "Base": 7.5,
+          "Modifiers": [
+            {
+              "Operation": 2,
+              "Amount": 0.175,
+              "Name": "effect.moveSlowdown 0"
+            }
+          ],
+          "Name": "generic.movementSpeed"
+        }
+      ]               
+    }    
+  },
+  {
+    "mob": "deadguyshallucinationnightmare:phanotm",
+    "result": "deny"  
+  },
+  {
+    "mob": "Giant",
+    "biome": "Desert",
+    "armorhelmet": ["armor_souls_reforged:armor_1helmet"],
+    "armorchest": ["armor_souls_reforged:armor_1body"],
+    "armorlegs": ["armor_souls_reforged:armor_6legs"],
+    "result": "default",
+    "maxcount": 1
+  },
+  {
+    "mob": "Giant",
+    "result": "deny"  
+  },
+  {
+    "mob": "grimoireofgaia:illager_inquisitor",
+    "dimension": 0,      
+    "result": "allow",
+    "mintime": 100,
+    "maxtime": 2100,
+    "seesky": true,
+    "maxcount": 4,
+    "armorchest": {
+      "item": "minecraft:iron_chestplate",
+      "nbt": {
+        "ench": [
+          {
+            "lvl": 1,
+            "id": 156
+          },
+          {
+            "lvl": 4,
+            "id": 165
+          },
+          {
+            "lvl": 4,
+            "id": 4
+          }                    
+        ]
+      }
+    },
+
+    "helditem":  ["2=minecraft:golden_sword", "2=minecraft:golden_axe", "1=spartanweaponry:saber_gold", "2=spartanweaponry:halberd_gold", "1=spartanweaponry:warhammer_gold", "1=spartanweaponry:katana_gold", "1=spartanweaponry:javelin_gold", "1=grimoireofgaia:weapon_prop_sword_gold", "1=grimoireofgaia:weapon_prop_axe_gold"],
+    "nbt": {
+      "HandItems": [
+        {
+          "id": "minecraft:iron_sword",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:shield",
+          "tag":{"ench":[{"lvl": 1, "id": 146},{"lvl": 3, "id": 143}], "BlockEntityTag":{"Patterns":[{"Pattern": "mc", "Color": 11},{"Pattern": "sc", "Color": 1},{"Pattern": "sc", "Color": 11}],"Base": 1}},          
+          "Count": 1
+        }        
+      ],
+      "Attributes": [
+        {
+          "Base": 0.23,
+          "Modifiers": [
+            {
+              "Operation": 2,
+              "Amount": 0.175,
+              "Name": "effect.moveSlowdown 0"
+            }
+          ],
+          "Name": "generic.movementSpeed"
+        }
+      ]               
+    }   
+  },
+  {
+    "mob": "grimoireofgaia:illager_inquisitor",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:silverfish",
+    "mintime": 3500,
+    "maxtime": 9000,
+    "dimension": 0,     
+    "result": "allow",
+    "maxcount": 12
+  },
+  {
+    "mob": "minecraft:silverfish",
+    "result": "deny"  
+  },
+  {
+    "mob": "netherex:ghastling",
+    "dimension": -1,      
+    "result": "default",
+    "maxcount": 6
+  },
+  {
+    "mob": "netherex:ghastling",
+    "result": "deny"  
+  }           
+
+]

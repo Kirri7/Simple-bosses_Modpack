@@ -1,0 +1,24 @@
+setIcon(<testdummy:dummy>)
+
+setTitle("Wooden friend")
+
+setDescription("Can you hug me sometimes, please? - dummy")
+
+setCompletedIconColor(#d18334)
+setCompletedTitleColor(#d18334)
+setCompletedLineColor(210, 155, 100)
+
+setFrameType("goal")
+
+addParent("triumph:AlmostVanilla/2spiders")
+
+setShowToast(true)
+
+setRewardExperience(10)
+
+setPos(-458,-76)
+
+hideLines()
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<testdummy:dummy>)

@@ -1,0 +1,30 @@
+//This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
+
+setIcon(<minecraft:planks>)
+
+setTitle("The Wooden Age")
+
+setDescription("May the planks be with you")
+
+setCompletedIconColor(#d18334)
+setCompletedTitleColor(#d18334)
+setCompletedLineColor(210, 155, 100)
+
+//Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
+setBackground("minecraft:textures/blocks/glazed_terracotta_brown.png")
+
+setShowToast(true)
+
+setAnnounceToChat(true)
+
+setRewardExperience(5)
+
+setPos(-742,29)
+
+criteria = addCriteria("completedParent", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:almostvanilla/1furnace")
+
+criteria = addCriteria("completedParent", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:almostvanilla/1uncraft")
+
+addRewardFunction("almostvanilla:The_Wooden_Age")

@@ -1,0 +1,50 @@
+type = menu
+
+customization-meta {
+  identifier = play_menu
+  smallerthanheight = 1080
+  renderorder = foreground
+  smallerthanwidth = 1920
+}
+
+customization {
+  name = play
+  action = animatebackground
+}
+
+customization {
+  orientation = mid-right
+  delayappearanceseconds = 1.0
+  buttonaction = opengui
+  label = Singleplayer
+  fadein = true
+  fadeinspeed = 2.0
+  x = -389
+  width = 140
+  actionid = 95d1595f-5755-4064-9b61-11b721d93a3b1626355150564
+  action = addbutton
+  y = 68
+  delayappearance = true
+  value = net.minecraft.client.gui.GuiWorldSelection
+  delayappearanceeverytime = false
+  height = 20
+}
+
+customization {
+  orientation = mid-left
+  delayappearanceseconds = 1.0
+  buttonaction = opengui
+  label = Multiplayer
+  fadein = true
+  fadeinspeed = 2.0
+  x = 251
+  width = 140
+  actionid = 3cb96755-e074-4a7c-aaef-aa43d126f7fc1626355150564
+  action = addbutton
+  y = 39
+  delayappearance = true
+  value = net.minecraft.client.gui.GuiMultiplayer
+  delayappearanceeverytime = false
+  height = 20
+}
+

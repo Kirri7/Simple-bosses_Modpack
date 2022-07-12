@@ -1,0 +1,20 @@
+setIcon(<wards:ward>)
+
+setTitle("Visionary")
+
+setDescription("Craft ward to help you with defence (needs an enchanted book and lapis)")
+
+setCompletedIconColor(#bbd4ed)
+setCompletedTitleColor(#bbd4ed)
+setCompletedLineColor(184, 200, 222)
+
+addParent("triumph:AlmostVanilla/3greenhouse")
+
+setShowToast(true)
+
+setRewardExperience(8)
+
+setPos(-686,120)
+
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+criteria.setItem(<wards:ward>)

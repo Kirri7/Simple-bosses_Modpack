@@ -1,0 +1,20 @@
+setIcon(<minecraft:dragon_egg>)
+
+setTitle("Here we go again")
+
+setDescription("")
+
+addParent("triumph:AlmostVanilla/4age")
+
+setShowToast(true)
+
+setRewardExperience(20)
+
+setPos(-1058,-97)
+
+hideLines()
+
+criteria = addCriteria("killed_entity", "minecraft:player_killed_entity")
+criteria.setEntityType("minecraft:ender_dragon")
+
+addRewardFunction("almostvanilla:adventures")

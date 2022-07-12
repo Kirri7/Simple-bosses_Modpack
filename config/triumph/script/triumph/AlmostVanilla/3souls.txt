@@ -1,0 +1,18 @@
+setIcon(<armor_souls_reforged:blue_soul>)
+
+setTitle("Armor and Souls")
+
+setDescription("Find souls to make special armor (similar to diamond)     30% of iron 70% of souls")
+
+setFrameType("goal")
+
+addParent("triumph:AlmostVanilla/3steel")
+
+setShowToast(true)
+
+setRewardExperience(10)
+
+setPos(-370,20)
+
+criteria = addCriteria("steel", "minecraft:inventory_changed")
+criteria.addItem(<armor_souls_reforged:blue_soul>)
